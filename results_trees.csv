@@ -1,0 +1,2762 @@
+aggregation,formula,dimension,layers,training_mask,testing_mask,total_graphs,total_positive,total_negative,tries,train_total_correct,train_ratio_correct,train_total_positive_correct,train_ratio_positive_correct,train_total_negative_correct,train_ratio_negative_correct,test_total_correct,test_ratio_correct,test_total_positive_correct,test_ratio_positive_correct,test_total_negative_correct,test_ratio_negative_correct,accuracies_by_neighbor_ranges,num_epochs,progress
+max,psi_0,1,1,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36856,37526,1,74382,1.0,35054,1.0,39328,1.0,74382,1.0,36856,1.0,37526,1.0,"  [  0-  4] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  5-  9] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",1,"Epoch 001
+Loss: 0.1831 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 35054/35054 (100.00%) 
+Test Positive Acc:  36856/36856 (100.00%) 
+Train Negative Acc: 39328/39328 (100.00%) 
+Test Negative Acc:  37526/37526 (100.00%) 
+
+"
+sum,psi_0,1,1,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36856,37526,1,74382,1.0,35054,1.0,39328,1.0,74382,1.0,36856,1.0,37526,1.0,"  [  0-  4] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  5-  9] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",1,"Epoch 001
+Loss: 0.1092 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 35054/35054 (100.00%) 
+Test Positive Acc:  36856/36856 (100.00%) 
+Train Negative Acc: 39328/39328 (100.00%) 
+Test Negative Acc:  37526/37526 (100.00%) 
+
+"
+mean,psi_0,1,1,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36856,37526,1,74382,1.0,35054,1.0,39328,1.0,74382,1.0,36856,1.0,37526,1.0,"  [  0-  4] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  5-  9] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",1,"Epoch 001
+Loss: 0.1599 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 35054/35054 (100.00%) 
+Test Positive Acc:  36856/36856 (100.00%) 
+Train Negative Acc: 39328/39328 (100.00%) 
+Test Negative Acc:  37526/37526 (100.00%) 
+
+"
+max,psi_1,4,4,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,50653,23729,1,73497,0.9881,50819,1.0,22678,0.9624,73496,0.9881,50653,1.0,22843,0.9627,"  [  0-  4] root neighbors | graphs=17710 | accuracy=0.9500 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9237061913372944
+  [  5-  9] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.4451 
+Train Acc: 69248/74382 (93.10%) 
+Test Acc:  68235/74382 (91.74%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 18429/23563 (78.21%) 
+Test Negative Acc:  17582/23729 (74.09%) 
+
+Epoch 002
+Loss: 0.0349 
+Train Acc: 73497/74382 (98.81%) 
+Test Acc:  73496/74382 (98.81%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 22678/23563 (96.24%) 
+Test Negative Acc:  22843/23729 (96.27%) 
+
+Epoch 003
+Loss: 0.0086 
+Train Acc: 73497/74382 (98.81%) 
+Test Acc:  73496/74382 (98.81%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 22678/23563 (96.24%) 
+Test Negative Acc:  22843/23729 (96.27%) 
+
+Epoch 004
+Loss: 0.0050 
+Train Acc: 73497/74382 (98.81%) 
+Test Acc:  73496/74382 (98.81%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 22678/23563 (96.24%) 
+Test Negative Acc:  22843/23729 (96.27%) 
+
+Epoch 005
+Loss: 0.0036 
+Train Acc: 73497/74382 (98.81%) 
+Test Acc:  73496/74382 (98.81%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 22678/23563 (96.24%) 
+Test Negative Acc:  22843/23729 (96.27%) 
+
+"
+mean,psi_1,4,4,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,50653,23729,1,72321,0.9723,49687,0.9777,22634,0.9606,71954,0.9674,49170,0.9707,22784,0.9602,"  [  0-  4] root neighbors | graphs=17710 | accuracy=0.9500 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9237061913372944
+  [  5-  9] root neighbors | graphs=17710 | accuracy=0.9973 | accuracy_on_positive=0.9982901807523205 | accuracy_on_negative=0.9950257921886514
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=0.9806 | accuracy_on_positive=0.9769562451403124 | accuracy_on_negative=0.9949480774628122
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=0.9504 | accuracy_on_positive=0.9423140825413704 | accuracy_on_negative=0.9958693203154337
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=0.9235 | accuracy_on_positive=0.912987012987013 | accuracy_on_negative=0.9935064935064936
+",5,"Epoch 001
+Loss: 0.4782 
+Train Acc: 63900/74382 (85.91%) 
+Test Acc:  63506/74382 (85.38%) 
+Train Positive Acc: 49863/50819 (98.12%) 
+Test Positive Acc:  49711/50653 (98.14%) 
+Train Negative Acc: 14037/23563 (59.57%) 
+Test Negative Acc:  13795/23729 (58.14%) 
+
+Epoch 002
+Loss: 0.1743 
+Train Acc: 70432/74382 (94.69%) 
+Test Acc:  69803/74382 (93.84%) 
+Train Positive Acc: 50514/50819 (99.40%) 
+Test Positive Acc:  50309/50653 (99.32%) 
+Train Negative Acc: 19918/23563 (84.53%) 
+Test Negative Acc:  19494/23729 (82.15%) 
+
+Epoch 003
+Loss: 0.1283 
+Train Acc: 72018/74382 (96.82%) 
+Test Acc:  71564/74382 (96.21%) 
+Train Positive Acc: 49707/50819 (97.81%) 
+Test Positive Acc:  49102/50653 (96.94%) 
+Train Negative Acc: 22311/23563 (94.69%) 
+Test Negative Acc:  22462/23729 (94.66%) 
+
+Epoch 004
+Loss: 0.1076 
+Train Acc: 73179/74382 (98.38%) 
+Test Acc:  72643/74382 (97.66%) 
+Train Positive Acc: 50503/50819 (99.38%) 
+Test Positive Acc:  49801/50653 (98.32%) 
+Train Negative Acc: 22676/23563 (96.24%) 
+Test Negative Acc:  22842/23729 (96.26%) 
+
+Epoch 005
+Loss: 0.0932 
+Train Acc: 72321/74382 (97.23%) 
+Test Acc:  71954/74382 (96.74%) 
+Train Positive Acc: 49687/50819 (97.77%) 
+Test Positive Acc:  49170/50653 (97.07%) 
+Train Negative Acc: 22634/23563 (96.06%) 
+Test Negative Acc:  22784/23729 (96.02%) 
+
+"
+sum,psi_1,4,4,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,50653,23729,2,74382,1.0,50819,1.0,23563,1.0,74382,1.0,50653,1.0,23729,1.0,"  [  0-  4] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  5-  9] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 10- 14] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=17710 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",1,"Epoch 001
+Loss: 0.2042 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 50819/50819 (100.00%) 
+Test Positive Acc:  50653/50653 (100.00%) 
+Train Negative Acc: 23563/23563 (100.00%) 
+Test Negative Acc:  23729/23729 (100.00%) 
+
+"
+max,psi_2,7,7,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,14025,60357,1,74382,1.0,14739,1.0,59643,1.0,74382,1.0,14025,1.0,60357,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",2,"Epoch 001
+Loss: 0.2362 
+Train Acc: 68184/74382 (91.67%) 
+Test Acc:  67591/74382 (90.87%) 
+Train Positive Acc: 11718/14739 (79.50%) 
+Test Positive Acc:  10332/14025 (73.67%) 
+Train Negative Acc: 56466/59643 (94.67%) 
+Test Negative Acc:  57259/60357 (94.87%) 
+
+Epoch 002
+Loss: 0.0703 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 14739/14739 (100.00%) 
+Test Positive Acc:  14025/14025 (100.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+"
+sum,psi_2,7,7,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,14025,60357,3(#001.txt),66603,0.8954,10889,0.7388,55714,0.9341,67126,0.9024,10665,0.7604,56461,0.9355,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8812 | accuracy_on_positive=1.0 | accuracy_on_negative=0.8491529981177736
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.8997 | accuracy_on_positive=1.0 | accuracy_on_negative=0.8646537765501476
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9574 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9467982031181186
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9158 | accuracy_on_positive=0.5379310344827586 | accuracy_on_negative=0.9843241891103144
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8634 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8814 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.2504 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 002
+Loss: 0.1067 
+Train Acc: 60112/74382 (80.82%) 
+Test Acc:  60819/74382 (81.77%) 
+Train Positive Acc: 469/14739 (3.18%) 
+Test Positive Acc:  462/14025 (3.29%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 003
+Loss: 0.0604 
+Train Acc: 63891/74382 (85.90%) 
+Test Acc:  64504/74382 (86.72%) 
+Train Positive Acc: 5135/14739 (34.84%) 
+Test Positive Acc:  5032/14025 (35.88%) 
+Train Negative Acc: 58756/59643 (98.51%) 
+Test Negative Acc:  59472/60357 (98.53%) 
+
+Epoch 004
+Loss: 0.0391 
+Train Acc: 69173/74382 (93.00%) 
+Test Acc:  69526/74382 (93.47%) 
+Train Positive Acc: 11617/14739 (78.82%) 
+Test Positive Acc:  11259/14025 (80.28%) 
+Train Negative Acc: 57556/59643 (96.50%) 
+Test Negative Acc:  58267/60357 (96.54%) 
+
+Epoch 005
+Loss: 0.0203 
+Train Acc: 66603/74382 (89.54%) 
+Test Acc:  67126/74382 (90.24%) 
+Train Positive Acc: 10889/14739 (73.88%) 
+Test Positive Acc:  10665/14025 (76.04%) 
+Train Negative Acc: 55714/59643 (93.41%) 
+Test Negative Acc:  56461/60357 (93.55%) 
+
+"
+mean,psi_2,7,7,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,14025,60357,3(#002.txt),59643,0.8018,0,0.0,59643,1.0,60357,0.8114,0,0.0,60357,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7875 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7410 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8013 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8465 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8634 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8814 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.4975 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 002
+Loss: 0.4855 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 003
+Loss: 0.4847 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 004
+Loss: 0.4841 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 005
+Loss: 0.4836 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+"
+max,psi_3,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,3(#004.txt),54732,0.7358,35545,0.8654,19187,0.5761,54590,0.7339,35248,0.8658,19342,0.5745,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7284 | accuracy_on_positive=0.0000 | accuracy_on_negative=0.75
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.5781 | accuracy_on_positive=0.7974522292993631 | accuracy_on_negative=0.468915204060055
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.7027 | accuracy_on_positive=0.8440495422724825 | accuracy_on_negative=0.433954536145812
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.7818 | accuracy_on_positive=0.8726565263530244 | accuracy_on_negative=0.4223776223776224
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8279 | accuracy_on_positive=0.892472240365774 | accuracy_on_negative=0.415625
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8504 | accuracy_on_positive=0.9032258064516129 | accuracy_on_negative=0.4105263157894737
+",5,"Epoch 001
+Loss: 0.4260 
+Train Acc: 50441/74382 (67.81%) 
+Test Acc:  50347/74382 (67.69%) 
+Train Positive Acc: 39542/41075 (96.27%) 
+Test Positive Acc:  39608/40713 (97.29%) 
+Train Negative Acc: 10899/33307 (32.72%) 
+Test Negative Acc:  10739/33669 (31.90%) 
+
+Epoch 002
+Loss: 0.4142 
+Train Acc: 51495/74382 (69.23%) 
+Test Acc:  51467/74382 (69.19%) 
+Train Positive Acc: 39542/41075 (96.27%) 
+Test Positive Acc:  39608/40713 (97.29%) 
+Train Negative Acc: 11953/33307 (35.89%) 
+Test Negative Acc:  11859/33669 (35.22%) 
+
+Epoch 003
+Loss: 0.4043 
+Train Acc: 54732/74382 (73.58%) 
+Test Acc:  54590/74382 (73.39%) 
+Train Positive Acc: 35545/41075 (86.54%) 
+Test Positive Acc:  35248/40713 (86.58%) 
+Train Negative Acc: 19187/33307 (57.61%) 
+Test Negative Acc:  19342/33669 (57.45%) 
+
+Epoch 004
+Loss: 0.3993 
+Train Acc: 54732/74382 (73.58%) 
+Test Acc:  54590/74382 (73.39%) 
+Train Positive Acc: 35545/41075 (86.54%) 
+Test Positive Acc:  35248/40713 (86.58%) 
+Train Negative Acc: 19187/33307 (57.61%) 
+Test Negative Acc:  19342/33669 (57.45%) 
+
+Epoch 005
+Loss: 0.3953 
+Train Acc: 54732/74382 (73.58%) 
+Test Acc:  54590/74382 (73.39%) 
+Train Positive Acc: 35545/41075 (86.54%) 
+Test Positive Acc:  35248/40713 (86.58%) 
+Train Negative Acc: 19187/33307 (57.61%) 
+Test Negative Acc:  19342/33669 (57.45%) 
+
+"
+sum,psi_3,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,3(#005.txt),73872,0.9931,40565,0.9876,33307,1.0,73877,0.9932,40208,0.9876,33669,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.9713 | accuracy_on_positive=0.0000 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9644 | accuracy_on_positive=0.8927813163481954 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.1898 
+Train Acc: 55028/74382 (73.98%) 
+Test Acc:  54773/74382 (73.64%) 
+Train Positive Acc: 21721/41075 (52.88%) 
+Test Positive Acc:  21104/40713 (51.84%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+Epoch 002
+Loss: 0.0533 
+Train Acc: 66619/74382 (89.56%) 
+Test Acc:  66453/74382 (89.34%) 
+Train Positive Acc: 33312/41075 (81.10%) 
+Test Positive Acc:  32784/40713 (80.52%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+Epoch 003
+Loss: 0.0263 
+Train Acc: 69781/74382 (93.81%) 
+Test Acc:  69742/74382 (93.76%) 
+Train Positive Acc: 36474/41075 (88.80%) 
+Test Positive Acc:  36073/40713 (88.60%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+Epoch 004
+Loss: 0.0177 
+Train Acc: 72853/74382 (97.94%) 
+Test Acc:  72864/74382 (97.96%) 
+Train Positive Acc: 39546/41075 (96.28%) 
+Test Positive Acc:  39195/40713 (96.27%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+Epoch 005
+Loss: 0.0138 
+Train Acc: 73872/74382 (99.31%) 
+Test Acc:  73877/74382 (99.32%) 
+Train Positive Acc: 40565/41075 (98.76%) 
+Test Positive Acc:  40208/40713 (98.76%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+"
+mean,psi_3,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,3(#006.txt),56135,0.7547,41075,1.0,15060,0.4522,56067,0.7538,40713,1.0,15354,0.456,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.4857 | accuracy_on_positive=0.0000 | accuracy_on_negative=0.5
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.4977 | accuracy_on_positive=1.0 | accuracy_on_negative=0.2475153309367731
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.7931 | accuracy_on_positive=1.0 | accuracy_on_negative=0.3995494573008396
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9257 | accuracy_on_positive=1.0 | accuracy_on_negative=0.6321678321678321
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9908 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9322916666666666
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.3562 
+Train Acc: 46561/74382 (62.60%) 
+Test Acc:  45638/74382 (61.36%) 
+Train Positive Acc: 40956/41075 (99.71%) 
+Test Positive Acc:  40690/40713 (99.94%) 
+Train Negative Acc: 5605/33307 (16.83%) 
+Test Negative Acc:  4948/33669 (14.70%) 
+
+Epoch 002
+Loss: 0.2057 
+Train Acc: 56158/74382 (75.50%) 
+Test Acc:  56073/74382 (75.39%) 
+Train Positive Acc: 41069/41075 (99.99%) 
+Test Positive Acc:  40703/40713 (99.98%) 
+Train Negative Acc: 15089/33307 (45.30%) 
+Test Negative Acc:  15370/33669 (45.65%) 
+
+Epoch 003
+Loss: 0.1779 
+Train Acc: 56222/74382 (75.59%) 
+Test Acc:  56137/74382 (75.47%) 
+Train Positive Acc: 41075/41075 (100.00%) 
+Test Positive Acc:  40713/40713 (100.00%) 
+Train Negative Acc: 15147/33307 (45.48%) 
+Test Negative Acc:  15424/33669 (45.81%) 
+
+Epoch 004
+Loss: 0.1741 
+Train Acc: 56172/74382 (75.52%) 
+Test Acc:  56096/74382 (75.42%) 
+Train Positive Acc: 41075/41075 (100.00%) 
+Test Positive Acc:  40713/40713 (100.00%) 
+Train Negative Acc: 15097/33307 (45.33%) 
+Test Negative Acc:  15383/33669 (45.69%) 
+
+Epoch 005
+Loss: 0.1914 
+Train Acc: 56135/74382 (75.47%) 
+Test Acc:  56067/74382 (75.38%) 
+Train Positive Acc: 41075/41075 (100.00%) 
+Test Positive Acc:  40713/40713 (100.00%) 
+Train Negative Acc: 15060/33307 (45.22%) 
+Test Negative Acc:  15354/33669 (45.60%) 
+
+"
+
+max,psi_4,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,3(#007.txt),42434,0.5705,0,0.0,42434,1.0,42068,0.5656,0,0.0,42068,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8000 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.2830 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.3912 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.5924 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.7112 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.7657 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.5887 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 002
+Loss: 0.5834 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 003
+Loss: 0.5824 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 004
+Loss: 0.5814 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 005
+Loss: 0.5807 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+"
+sum,psi_4,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,3(#008.txt),71629,0.963,31948,1.0,39681,0.9351,71636,0.9631,32314,1.0,39322,0.9347,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9897 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9635819406335745
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9336 | accuracy_on_positive=1.0 | accuracy_on_negative=0.8302363341151001
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9396 | accuracy_on_positive=1.0 | accuracy_on_negative=0.8980102466340999
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9532 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9342000793965859
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.9605 | accuracy_on_positive=1.0 | accuracy_on_negative=0.948377581120944
+",5,"Epoch 001
+Loss: 0.4941 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 002
+Loss: 0.3277 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 003
+Loss: 0.4254 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 004
+Loss: 0.3347 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 005
+Loss: 0.1304 
+Train Acc: 71629/74382 (96.30%) 
+Test Acc:  71636/74382 (96.31%) 
+Train Positive Acc: 31948/31948 (100.00%) 
+Test Positive Acc:  32314/32314 (100.00%) 
+Train Negative Acc: 39681/42434 (93.51%) 
+Test Negative Acc:  39322/42068 (93.47%) 
+
+"
+mean,psi_4,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,3(#009.txt),44894,0.6036,4906,0.1536,39988,0.9424,44034,0.592,4398,0.1361,39636,0.9422,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7750 | accuracy_on_positive=0.0 | accuracy_on_negative=0.968681076312307
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.2385 | accuracy_on_positive=0.03396003543655872 | accuracy_on_negative=0.7567972062858568
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.4229 | accuracy_on_positive=0.11594202898550725 | accuracy_on_negative=0.9004149377593361
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.6658 | accuracy_on_positive=0.2315151515151515 | accuracy_on_negative=0.9646133682830931
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8044 | accuracy_on_positive=0.36485826001955035 | accuracy_on_negative=0.9829297340214371
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8058 | accuracy_on_positive=0.26867469879518074 | accuracy_on_negative=0.9701327433628318
+",5,"Epoch 001
+Loss: 0.5353 
+Train Acc: 37907/74382 (50.96%) 
+Test Acc:  38010/74382 (51.10%) 
+Train Positive Acc: 4963/31948 (15.53%) 
+Test Positive Acc:  5696/32314 (17.63%) 
+Train Negative Acc: 32944/42434 (77.64%) 
+Test Negative Acc:  32314/42068 (76.81%) 
+
+Epoch 002
+Loss: 0.1745 
+Train Acc: 43027/74382 (57.85%) 
+Test Acc:  42811/74382 (57.56%) 
+Train Positive Acc: 9035/31948 (28.28%) 
+Test Positive Acc:  9362/32314 (28.97%) 
+Train Negative Acc: 33992/42434 (80.11%) 
+Test Negative Acc:  33449/42068 (79.51%) 
+
+Epoch 003
+Loss: 0.1734 
+Train Acc: 47670/74382 (64.09%) 
+Test Acc:  47553/74382 (63.93%) 
+Train Positive Acc: 8933/31948 (27.96%) 
+Test Positive Acc:  9205/32314 (28.49%) 
+Train Negative Acc: 38737/42434 (91.29%) 
+Test Negative Acc:  38348/42068 (91.16%) 
+
+Epoch 004
+Loss: 0.2084 
+Train Acc: 43615/74382 (58.64%) 
+Test Acc:  43663/74382 (58.70%) 
+Train Positive Acc: 11851/31948 (37.09%) 
+Test Positive Acc:  12271/32314 (37.97%) 
+Train Negative Acc: 31764/42434 (74.86%) 
+Test Negative Acc:  31392/42068 (74.62%) 
+
+Epoch 005
+Loss: 0.0909 
+Train Acc: 44894/74382 (60.36%) 
+Test Acc:  44034/74382 (59.20%) 
+Train Positive Acc: 4906/31948 (15.36%) 
+Test Positive Acc:  4398/32314 (13.61%) 
+Train Negative Acc: 39988/42434 (94.24%) 
+Test Negative Acc:  39636/42068 (94.22%) 
+
+"
+max,psi_5,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,3(#010.txt),34049,0.4578,0,0.0,34049,1.0,34550,0.4645,0,0.0,34550,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.5751 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.4440 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.4365 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.4232 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.4433 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.4658 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.6130 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 002
+Loss: 0.5735 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 003
+Loss: 0.5597 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 004
+Loss: 0.5540 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 005
+Loss: 0.5507 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+"
+sum,psi_5,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,3,39435,0.5302,5386,0.1335,34049,1.0,39582,0.5321,5032,0.1263,34550,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.5751 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.4440 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.4365 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.4747 | accuracy_on_positive=0.08920704845814978 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.6659 | accuracy_on_positive=0.399898567262584 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.7902 | accuracy_on_positive=0.607293868921776 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.3653 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 002
+Loss: 0.2392 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 003
+Loss: 0.2052 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 004
+Loss: 0.1955 
+Train Acc: 34049/74382 (45.78%) 
+Test Acc:  34550/74382 (46.45%) 
+Train Positive Acc: 0/40333 (0.00%) 
+Test Positive Acc:  0/39832 (0.00%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 005
+Loss: 0.2020 
+Train Acc: 39435/74382 (53.02%) 
+Test Acc:  39582/74382 (53.21%) 
+Train Positive Acc: 5386/40333 (13.35%) 
+Test Positive Acc:  5032/39832 (12.63%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+"
+sum,psi_5,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,1,70295,0.9451,38017,0.9426,32278,0.948,70276,0.9448,37497,0.9414,32779,0.9487,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8375 | accuracy_on_positive=0.9117940199335548 | accuracy_on_negative=0.7826460481099656
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9857 | accuracy_on_positive=0.9742287672971943 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9712 | accuracy_on_positive=0.9488977955911824 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9530 | accuracy_on_positive=0.9185022026431718 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9628 | accuracy_on_positive=0.9331811842272093 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.1342 
+Train Acc: 68204/74382 (91.69%) 
+Test Acc:  68186/74382 (91.67%) 
+Train Positive Acc: 35926/40333 (89.07%) 
+Test Positive Acc:  35407/39832 (88.89%) 
+Train Negative Acc: 32278/34049 (94.80%) 
+Test Negative Acc:  32779/34550 (94.87%) 
+
+Epoch 002
+Loss: 0.0769 
+Train Acc: 70142/74382 (94.30%) 
+Test Acc:  70125/74382 (94.28%) 
+Train Positive Acc: 37864/40333 (93.88%) 
+Test Positive Acc:  37346/39832 (93.76%) 
+Train Negative Acc: 32278/34049 (94.80%) 
+Test Negative Acc:  32779/34550 (94.87%) 
+
+Epoch 003
+Loss: 0.0624 
+Train Acc: 70147/74382 (94.31%) 
+Test Acc:  70129/74382 (94.28%) 
+Train Positive Acc: 37869/40333 (93.89%) 
+Test Positive Acc:  37350/39832 (93.77%) 
+Train Negative Acc: 32278/34049 (94.80%) 
+Test Negative Acc:  32779/34550 (94.87%) 
+
+Epoch 004
+Loss: 0.0575 
+Train Acc: 70518/74382 (94.81%) 
+Test Acc:  70500/74382 (94.78%) 
+Train Positive Acc: 38240/40333 (94.81%) 
+Test Positive Acc:  37721/39832 (94.70%) 
+Train Negative Acc: 32278/34049 (94.80%) 
+Test Negative Acc:  32779/34550 (94.87%) 
+
+Epoch 005
+Loss: 0.0558 
+Train Acc: 70295/74382 (94.51%) 
+Test Acc:  70276/74382 (94.48%) 
+Train Positive Acc: 38017/40333 (94.26%) 
+Test Positive Acc:  37497/39832 (94.14%) 
+Train Negative Acc: 32278/34049 (94.80%) 
+Test Negative Acc:  32779/34550 (94.87%) 
+
+"
+mean,psi_5,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,1,72634,0.9765,38585,0.9567,34049,1.0,72629,0.9764,38079,0.956,34550,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.9938 | accuracy_on_positive=0.9853820598006644 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9975 | accuracy_on_positive=0.9955566840167577 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9702 | accuracy_on_positive=0.9471442885771543 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9524 | accuracy_on_positive=0.9174008810572687 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9624 | accuracy_on_positive=0.9324204386965893 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.3944 
+Train Acc: 65854/74382 (88.53%) 
+Test Acc:  66007/74382 (88.74%) 
+Train Positive Acc: 31805/40333 (78.86%) 
+Test Positive Acc:  31457/39832 (78.97%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 002
+Loss: 0.1046 
+Train Acc: 68450/74382 (92.02%) 
+Test Acc:  68513/74382 (92.11%) 
+Train Positive Acc: 34401/40333 (85.29%) 
+Test Positive Acc:  33963/39832 (85.27%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 003
+Loss: 0.0582 
+Train Acc: 70614/74382 (94.93%) 
+Test Acc:  70702/74382 (95.05%) 
+Train Positive Acc: 36565/40333 (90.66%) 
+Test Positive Acc:  36152/39832 (90.76%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 004
+Loss: 0.0407 
+Train Acc: 72168/74382 (97.02%) 
+Test Acc:  72187/74382 (97.05%) 
+Train Positive Acc: 38119/40333 (94.51%) 
+Test Positive Acc:  37637/39832 (94.49%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 005
+Loss: 0.0314 
+Train Acc: 72634/74382 (97.65%) 
+Test Acc:  72629/74382 (97.64%) 
+Train Positive Acc: 38585/40333 (95.67%) 
+Test Positive Acc:  38079/39832 (95.60%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+"
+max,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,3(#013.txt),55954,0.7523,20972,0.5716,34982,0.9281,56069,0.7538,20963,0.5741,35106,0.9271,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.9375 | accuracy_on_positive=1.0 | accuracy_on_negative=0.8215006050826946
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7643 | accuracy_on_positive=0.621998883305416 | accuracy_on_negative=0.9097658480868075
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.7087 | accuracy_on_positive=0.4471103063226196 | accuracy_on_negative=0.9386023073862882
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.7062 | accuracy_on_positive=0.36512768476238794 | accuracy_on_negative=0.9505754088431254
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.6806 | accuracy_on_positive=0.29596787686130166 | accuracy_on_negative=0.9612989866927115
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.6403 | accuracy_on_positive=0.25 | accuracy_on_negative=0.9708029197080292
+",5,"Epoch 001
+Loss: 0.5022 
+Train Acc: 36690/74382 (49.33%) 
+Test Acc:  36515/74382 (49.09%) 
+Train Positive Acc: 36690/36690 (100.00%) 
+Test Positive Acc:  36515/36515 (100.00%) 
+Train Negative Acc: 0/37692 (0.00%) 
+Test Negative Acc:  0/37867 (0.00%) 
+
+Epoch 002
+Loss: 0.4278 
+Train Acc: 38444/74382 (51.68%) 
+Test Acc:  38266/74382 (51.45%) 
+Train Positive Acc: 36690/36690 (100.00%) 
+Test Positive Acc:  36515/36515 (100.00%) 
+Train Negative Acc: 1754/37692 (4.65%) 
+Test Negative Acc:  1751/37867 (4.62%) 
+
+Epoch 003
+Loss: 0.4192 
+Train Acc: 39584/74382 (53.22%) 
+Test Acc:  39391/74382 (52.96%) 
+Train Positive Acc: 35675/36690 (97.23%) 
+Test Positive Acc:  35527/36515 (97.29%) 
+Train Negative Acc: 3909/37692 (10.37%) 
+Test Negative Acc:  3864/37867 (10.20%) 
+
+Epoch 004
+Loss: 0.4191 
+Train Acc: 40016/74382 (53.80%) 
+Test Acc:  39829/74382 (53.55%) 
+Train Positive Acc: 36107/36690 (98.41%) 
+Test Positive Acc:  35965/36515 (98.49%) 
+Train Negative Acc: 3909/37692 (10.37%) 
+Test Negative Acc:  3864/37867 (10.20%) 
+
+Epoch 005
+Loss: 0.4331 
+Train Acc: 55954/74382 (75.23%) 
+Test Acc:  56069/74382 (75.38%) 
+Train Positive Acc: 20972/36690 (57.16%) 
+Test Positive Acc:  20963/36515 (57.41%) 
+Train Negative Acc: 34982/37692 (92.81%) 
+Test Negative Acc:  35106/37867 (92.71%) 
+
+"
+sum,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,3(#014.txt),58965,0.7927,23693,0.6458,35272,0.9358,59414,0.7988,24012,0.6576,35402,0.9349,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8000 | accuracy_on_positive=0.8365906623235614 | accuracy_on_negative=0.7321500605082695
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7718 | accuracy_on_positive=0.6192071468453378 | accuracy_on_negative=0.9278983438035409
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8082 | accuracy_on_positive=0.5900105628489513 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8098 | accuracy_on_positive=0.5863351936411297 | accuracy_on_negative=0.9698364627498486
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8011 | accuracy_on_positive=0.5926049857788188 | accuracy_on_negative=0.9532413624710048
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8103 | accuracy_on_positive=0.5862068965517241 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.4034 
+Train Acc: 57386/74382 (77.15%) 
+Test Acc:  57818/74382 (77.73%) 
+Train Positive Acc: 24219/36690 (66.01%) 
+Test Positive Acc:  24535/36515 (67.19%) 
+Train Negative Acc: 33167/37692 (87.99%) 
+Test Negative Acc:  33283/37867 (87.89%) 
+
+Epoch 002
+Loss: 0.2617 
+Train Acc: 57662/74382 (77.52%) 
+Test Acc:  58028/74382 (78.01%) 
+Train Positive Acc: 24158/36690 (65.84%) 
+Test Positive Acc:  24466/36515 (67.00%) 
+Train Negative Acc: 33504/37692 (88.89%) 
+Test Negative Acc:  33562/37867 (88.63%) 
+
+Epoch 003
+Loss: 0.3072 
+Train Acc: 58036/74382 (78.02%) 
+Test Acc:  58466/74382 (78.60%) 
+Train Positive Acc: 24036/36690 (65.51%) 
+Test Positive Acc:  24345/36515 (66.67%) 
+Train Negative Acc: 34000/37692 (90.20%) 
+Test Negative Acc:  34121/37867 (90.11%) 
+
+Epoch 004
+Loss: 0.2909 
+Train Acc: 59858/74382 (80.47%) 
+Test Acc:  60312/74382 (81.08%) 
+Train Positive Acc: 23370/36690 (63.70%) 
+Test Positive Acc:  23696/36515 (64.89%) 
+Train Negative Acc: 36488/37692 (96.81%) 
+Test Negative Acc:  36616/37867 (96.70%) 
+
+Epoch 005
+Loss: 0.2807 
+Train Acc: 58965/74382 (79.27%) 
+Test Acc:  59414/74382 (79.88%) 
+Train Positive Acc: 23693/36690 (64.58%) 
+Test Positive Acc:  24012/36515 (65.76%) 
+Train Negative Acc: 35272/37692 (93.58%) 
+Test Negative Acc:  35402/37867 (93.49%) 
+
+"
+mean,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,2(#015.txt),61411,0.8256,31065,0.8467,30346,0.8051,61000,0.8201,30549,0.8366,30451,0.8042,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8094 | accuracy_on_positive=0.8269272529858849 | accuracy_on_negative=0.7767244856797095
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.8259 | accuracy_on_positive=0.8234226689000559 | accuracy_on_negative=0.8283837806967447
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8315 | accuracy_on_positive=0.8454806096272823 | accuracy_on_negative=0.8191221323431905
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8213 | accuracy_on_positive=0.8621681041772365 | accuracy_on_negative=0.7920048455481526
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8159 | accuracy_on_positive=0.8495900953655681 | accuracy_on_negative=0.7913563667439873
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8063 | accuracy_on_positive=0.7727832512315271 | accuracy_on_negative=0.8347236704900939
+",5,"Epoch 001
+Loss: 0.4387 
+Train Acc: 54949/74382 (73.87%) 
+Test Acc:  55263/74382 (74.30%) 
+Train Positive Acc: 19079/36690 (52.00%) 
+Test Positive Acc:  19299/36515 (52.85%) 
+Train Negative Acc: 35870/37692 (95.17%) 
+Test Negative Acc:  35964/37867 (94.97%) 
+
+Epoch 002
+Loss: 0.3565 
+Train Acc: 53716/74382 (72.22%) 
+Test Acc:  54192/74382 (72.86%) 
+Train Positive Acc: 17380/36690 (47.37%) 
+Test Positive Acc:  17521/36515 (47.98%) 
+Train Negative Acc: 36336/37692 (96.40%) 
+Test Negative Acc:  36671/37867 (96.84%) 
+
+Epoch 003
+Loss: 0.2770 
+Train Acc: 59932/74382 (80.57%) 
+Test Acc:  60173/74382 (80.90%) 
+Train Positive Acc: 34536/36690 (94.13%) 
+Test Positive Acc:  34201/36515 (93.66%) 
+Train Negative Acc: 25396/37692 (67.38%) 
+Test Negative Acc:  25972/37867 (68.59%) 
+
+Epoch 004
+Loss: 0.2434 
+Train Acc: 58937/74382 (79.24%) 
+Test Acc:  59114/74382 (79.47%) 
+Train Positive Acc: 31098/36690 (84.76%) 
+Test Positive Acc:  30480/36515 (83.47%) 
+Train Negative Acc: 27839/37692 (73.86%) 
+Test Negative Acc:  28634/37867 (75.62%) 
+
+Epoch 005
+Loss: 0.1897 
+Train Acc: 61411/74382 (82.56%) 
+Test Acc:  61000/74382 (82.01%) 
+Train Positive Acc: 31065/36690 (84.67%) 
+Test Positive Acc:  30549/36515 (83.66%) 
+Train Negative Acc: 30346/37692 (80.51%) 
+Test Negative Acc:  30451/37867 (80.42%) 
+
+"
+mean,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,1,72803,0.9788,35391,0.9646,37412,0.9926,72904,0.9801,35250,0.9654,37654,0.9944,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9824 | accuracy_on_positive=0.9666387493020658 | accuracy_on_negative=0.9985722444317533
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9724 | accuracy_on_positive=0.9416025350837482 | accuracy_on_negative=0.9994695663705079
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9743 | accuracy_on_positive=0.9644850329781837 | accuracy_on_negative=0.9813446396123562
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9771 | accuracy_on_positive=0.9533210640789694 | accuracy_on_negative=0.9945061653033818
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.9577 | accuracy_on_positive=0.9076354679802956 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.5126 
+Train Acc: 54474/74382 (73.24%) 
+Test Acc:  55018/74382 (73.97%) 
+Train Positive Acc: 17406/36690 (47.44%) 
+Test Positive Acc:  17608/36515 (48.22%) 
+Train Negative Acc: 37068/37692 (98.34%) 
+Test Negative Acc:  37410/37867 (98.79%) 
+
+Epoch 002
+Loss: 0.3220 
+Train Acc: 58045/74382 (78.04%) 
+Test Acc:  56226/74382 (75.59%) 
+Train Positive Acc: 36456/36690 (99.36%) 
+Test Positive Acc:  36334/36515 (99.50%) 
+Train Negative Acc: 21589/37692 (57.28%) 
+Test Negative Acc:  19892/37867 (52.53%) 
+
+Epoch 003
+Loss: 0.0870 
+Train Acc: 67134/74382 (90.26%) 
+Test Acc:  67170/74382 (90.30%) 
+Train Positive Acc: 29611/36690 (80.71%) 
+Test Positive Acc:  29426/36515 (80.59%) 
+Train Negative Acc: 37523/37692 (99.55%) 
+Test Negative Acc:  37744/37867 (99.68%) 
+
+Epoch 004
+Loss: 0.0313 
+Train Acc: 71192/74382 (95.71%) 
+Test Acc:  71292/74382 (95.85%) 
+Train Positive Acc: 33614/36690 (91.62%) 
+Test Positive Acc:  33481/36515 (91.69%) 
+Train Negative Acc: 37578/37692 (99.70%) 
+Test Negative Acc:  37811/37867 (99.85%) 
+
+Epoch 005
+Loss: 0.0121 
+Train Acc: 72803/74382 (97.88%) 
+Test Acc:  72904/74382 (98.01%) 
+Train Positive Acc: 35391/36690 (96.46%) 
+Test Positive Acc:  35250/36515 (96.54%) 
+Train Negative Acc: 37412/37692 (99.26%) 
+Test Negative Acc:  37654/37867 (99.44%) 
+
+"
+
+max,psi_3*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,3(#004*.txt),55658,0.7483,34915,0.85,20743,0.6228,55496,0.7461,34601,0.8499,20895,0.6206,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8249 | accuracy_on_positive=0.0 | accuracy_on_negative=0.8248870694522868
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.5865 | accuracy_on_positive=0.7479830148619957 | accuracy_on_negative=0.5060266441108057
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.6961 | accuracy_on_positive=0.8248788368336026 | accuracy_on_negative=0.4511570755682982
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.7758 | accuracy_on_positive=0.8622214361513972 | accuracy_on_negative=0.43391608391608394
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8222 | accuracy_on_positive=0.8842259960809928 | accuracy_on_negative=0.4265625
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8464 | accuracy_on_positive=0.8978494623655914 | accuracy_on_negative=0.41842105263157897
+",5,"Epoch 001
+Loss: 0.6058 
+Train Acc: 54732/74382 (73.58%) 
+Test Acc:  54590/74382 (73.39%) 
+Train Positive Acc: 35545/41075 (86.54%) 
+Test Positive Acc:  35248/40713 (86.58%) 
+Train Negative Acc: 19187/33307 (57.61%) 
+Test Negative Acc:  19342/33669 (57.45%) 
+
+Epoch 002
+Loss: 0.5518 
+Train Acc: 55658/74382 (74.83%) 
+Test Acc:  55496/74382 (74.61%) 
+Train Positive Acc: 34915/41075 (85.00%) 
+Test Positive Acc:  34601/40713 (84.99%) 
+Train Negative Acc: 20743/33307 (62.28%) 
+Test Negative Acc:  20895/33669 (62.06%) 
+
+Epoch 003
+Loss: 0.5368 
+Train Acc: 55658/74382 (74.83%) 
+Test Acc:  55496/74382 (74.61%) 
+Train Positive Acc: 34915/41075 (85.00%) 
+Test Positive Acc:  34601/40713 (84.99%) 
+Train Negative Acc: 20743/33307 (62.28%) 
+Test Negative Acc:  20895/33669 (62.06%) 
+
+Epoch 004
+Loss: 0.5321 
+Train Acc: 55658/74382 (74.83%) 
+Test Acc:  55496/74382 (74.61%) 
+Train Positive Acc: 34915/41075 (85.00%) 
+Test Positive Acc:  34601/40713 (84.99%) 
+Train Negative Acc: 20743/33307 (62.28%) 
+Test Negative Acc:  20895/33669 (62.06%) 
+
+Epoch 005
+Loss: 0.5297 
+Train Acc: 55658/74382 (74.83%) 
+Test Acc:  55496/74382 (74.61%) 
+Train Positive Acc: 34915/41075 (85.00%) 
+Test Positive Acc:  34601/40713 (84.99%) 
+Train Negative Acc: 20743/33307 (62.28%) 
+Test Negative Acc:  20895/33669 (62.06%) 
+
+"
+sum,psi_3*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,1,74382,1.0,41075,1.0,33307,1.0,74382,1.0,40713,1.0,33669,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",2,"Epoch 001
+Loss: 0.2009 
+Train Acc: 73710/74382 (99.10%) 
+Test Acc:  73706/74382 (99.09%) 
+Train Positive Acc: 40403/41075 (98.36%) 
+Test Positive Acc:  40037/40713 (98.34%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+Epoch 002
+Loss: 0.0826 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 41075/41075 (100.00%) 
+Test Positive Acc:  40713/40713 (100.00%) 
+Train Negative Acc: 33307/33307 (100.00%) 
+Test Negative Acc:  33669/33669 (100.00%) 
+
+"
+mean,psi_3*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,40713,33669,3(#006*.txt),53956,0.7254,28130,0.6848,25826,0.7754,52613,0.7073,26412,0.6487,26201,0.7782,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.6312 | accuracy_on_positive=0.0 | accuracy_on_negative=0.6312111801242236
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.8315 | accuracy_on_positive=0.9681528662420382 | accuracy_on_negative=0.7633749207020512
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8178 | accuracy_on_positive=0.7225632740980076 | accuracy_on_negative=0.9989760393200902
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.6891 | accuracy_on_positive=0.6104527767951893 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.6119 | accuracy_on_positive=0.5511103853690399 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.5280 | accuracy_on_positive=0.4712207463630613 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.6033 
+Train Acc: 54313/74382 (73.02%) 
+Test Acc:  53218/74382 (71.55%) 
+Train Positive Acc: 28782/41075 (70.07%) 
+Test Positive Acc:  27317/40713 (67.10%) 
+Train Negative Acc: 25531/33307 (76.65%) 
+Test Negative Acc:  25901/33669 (76.93%) 
+
+Epoch 002
+Loss: 0.5573 
+Train Acc: 53714/74382 (72.21%) 
+Test Acc:  52139/74382 (70.10%) 
+Train Positive Acc: 27891/41075 (67.90%) 
+Test Positive Acc:  25939/40713 (63.71%) 
+Train Negative Acc: 25823/33307 (77.53%) 
+Test Negative Acc:  26200/33669 (77.82%) 
+
+Epoch 003
+Loss: 0.5508 
+Train Acc: 53913/74382 (72.48%) 
+Test Acc:  52496/74382 (70.58%) 
+Train Positive Acc: 28082/41075 (68.37%) 
+Test Positive Acc:  26287/40713 (64.57%) 
+Train Negative Acc: 25831/33307 (77.55%) 
+Test Negative Acc:  26209/33669 (77.84%) 
+
+Epoch 004
+Loss: 0.5483 
+Train Acc: 54040/74382 (72.65%) 
+Test Acc:  52685/74382 (70.83%) 
+Train Positive Acc: 28251/41075 (68.78%) 
+Test Positive Acc:  26515/40713 (65.13%) 
+Train Negative Acc: 25789/33307 (77.43%) 
+Test Negative Acc:  26170/33669 (77.73%) 
+
+Epoch 005
+Loss: 0.5472 
+Train Acc: 53956/74382 (72.54%) 
+Test Acc:  52613/74382 (70.73%) 
+Train Positive Acc: 28130/41075 (68.48%) 
+Test Positive Acc:  26412/40713 (64.87%) 
+Train Negative Acc: 25826/33307 (77.54%) 
+Test Negative Acc:  26201/33669 (77.82%) 
+
+"
+max,psi_4*,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,3(#007*.txt),42434,0.5705,0,0.0,42434,1.0,42068,0.5656,0,0.0,42068,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8000 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.2830 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.3912 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.5924 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.7112 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.7657 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.6748 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 002
+Loss: 0.6363 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 003
+Loss: 0.6175 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 004
+Loss: 0.6119 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 005
+Loss: 0.6089 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+"
+sum,psi_4*,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,1,74382,1.0,31948,1.0,42434,1.0,74382,1.0,32314,1.0,42068,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",2,"Epoch 001
+Loss: 0.5754 
+Train Acc: 73721/74382 (99.11%) 
+Test Acc:  73753/74382 (99.15%) 
+Train Positive Acc: 31948/31948 (100.00%) 
+Test Positive Acc:  32314/32314 (100.00%) 
+Train Negative Acc: 41773/42434 (98.44%) 
+Test Negative Acc:  41439/42068 (98.50%) 
+
+Epoch 002
+Loss: 0.1229 
+Train Acc: 74382/74382 (100.00%) 
+Test Acc:  74382/74382 (100.00%) 
+Train Positive Acc: 31948/31948 (100.00%) 
+Test Positive Acc:  32314/32314 (100.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+"
+mean,psi_4*,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,32314,42068,3(#009*.txt),52549,0.7065,14553,0.4555,37996,0.8954,51693,0.695,14642,0.4531,37051,0.8807,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7250 | accuracy_on_positive=0.0 | accuracy_on_negative=0.9062196735774151
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.3188 | accuracy_on_positive=0.22512058273452112 | accuracy_on_negative=0.5562484410077326
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.6829 | accuracy_on_positive=0.48486956521739133 | accuracy_on_negative=0.9911600216489266
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8979 | accuracy_on_positive=0.7622510822510823 | accuracy_on_negative=0.9911831287978077
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8399 | accuracy_on_positive=0.7888563049853372 | accuracy_on_negative=0.8606589916633585
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.7360 | accuracy_on_positive=0.6542168674698795 | accuracy_on_negative=0.7610619469026548
+",5,"Epoch 001
+Loss: 0.6641 
+Train Acc: 42434/74382 (57.05%) 
+Test Acc:  42068/74382 (56.56%) 
+Train Positive Acc: 0/31948 (0.00%) 
+Test Positive Acc:  0/32314 (0.00%) 
+Train Negative Acc: 42434/42434 (100.00%) 
+Test Negative Acc:  42068/42068 (100.00%) 
+
+Epoch 002
+Loss: 0.6366 
+Train Acc: 50160/74382 (67.44%) 
+Test Acc:  49565/74382 (66.64%) 
+Train Positive Acc: 11035/31948 (34.54%) 
+Test Positive Acc:  10862/32314 (33.61%) 
+Train Negative Acc: 39125/42434 (92.20%) 
+Test Negative Acc:  38703/42068 (92.00%) 
+
+Epoch 003
+Loss: 0.5597 
+Train Acc: 52385/74382 (70.43%) 
+Test Acc:  51624/74382 (69.40%) 
+Train Positive Acc: 14414/31948 (45.12%) 
+Test Positive Acc:  14582/32314 (45.13%) 
+Train Negative Acc: 37971/42434 (89.48%) 
+Test Negative Acc:  37042/42068 (88.05%) 
+
+Epoch 004
+Loss: 0.5446 
+Train Acc: 52617/74382 (70.74%) 
+Test Acc:  51804/74382 (69.65%) 
+Train Positive Acc: 14950/31948 (46.79%) 
+Test Positive Acc:  15139/32314 (46.85%) 
+Train Negative Acc: 37667/42434 (88.77%) 
+Test Negative Acc:  36665/42068 (87.16%) 
+
+Epoch 005
+Loss: 0.5417 
+Train Acc: 52549/74382 (70.65%) 
+Test Acc:  51693/74382 (69.50%) 
+Train Positive Acc: 14553/31948 (45.55%) 
+Test Positive Acc:  14642/32314 (45.31%) 
+Train Negative Acc: 37996/42434 (89.54%) 
+Test Negative Acc:  37051/42068 (88.07%) 
+
+"
+max,psi_5*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,3(#010*.txt),52007,0.6992,28974,0.7184,23033,0.6765,51836,0.6969,28620,0.7185,23216,0.672,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7440 | accuracy_on_positive=0.4196013289036545 | accuracy_on_negative=0.9836769759450171
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7134 | accuracy_on_positive=0.641741779865431 | accuracy_on_negative=0.8030519790176442
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.7011 | accuracy_on_positive=0.7567635270541082 | accuracy_on_negative=0.6292043984476067
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.6839 | accuracy_on_positive=0.8132648066568772 | accuracy_on_negative=0.507505003335557
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.6575 | accuracy_on_positive=0.8496259667807785 | accuracy_on_negative=0.4163349785066072
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.6352 | accuracy_on_positive=0.872093023255814 | accuracy_on_negative=0.36363636363636365
+",5,"Epoch 001
+Loss: 0.6253 
+Train Acc: 51421/74382 (69.13%) 
+Test Acc:  51244/74382 (68.89%) 
+Train Positive Acc: 28154/40333 (69.80%) 
+Test Positive Acc:  27764/39832 (69.70%) 
+Train Negative Acc: 23267/34049 (68.33%) 
+Test Negative Acc:  23480/34550 (67.96%) 
+
+Epoch 002
+Loss: 0.5834 
+Train Acc: 52007/74382 (69.92%) 
+Test Acc:  51836/74382 (69.69%) 
+Train Positive Acc: 28974/40333 (71.84%) 
+Test Positive Acc:  28620/39832 (71.85%) 
+Train Negative Acc: 23033/34049 (67.65%) 
+Test Negative Acc:  23216/34550 (67.20%) 
+
+Epoch 003
+Loss: 0.5647 
+Train Acc: 52007/74382 (69.92%) 
+Test Acc:  51836/74382 (69.69%) 
+Train Positive Acc: 28974/40333 (71.84%) 
+Test Positive Acc:  28620/39832 (71.85%) 
+Train Negative Acc: 23033/34049 (67.65%) 
+Test Negative Acc:  23216/34550 (67.20%) 
+
+Epoch 004
+Loss: 0.5586 
+Train Acc: 52007/74382 (69.92%) 
+Test Acc:  51836/74382 (69.69%) 
+Train Positive Acc: 28974/40333 (71.84%) 
+Test Positive Acc:  28620/39832 (71.85%) 
+Train Negative Acc: 23033/34049 (67.65%) 
+Test Negative Acc:  23216/34550 (67.20%) 
+
+Epoch 005
+Loss: 0.5562 
+Train Acc: 52007/74382 (69.92%) 
+Test Acc:  51836/74382 (69.69%) 
+Train Positive Acc: 28974/40333 (71.84%) 
+Test Positive Acc:  28620/39832 (71.85%) 
+Train Negative Acc: 23033/34049 (67.65%) 
+Test Negative Acc:  23216/34550 (67.20%) 
+
+"
+sum,psi_5*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,2(#011*.txt),73977,0.9946,39928,0.99,34049,1.0,73974,0.9945,39424,0.9898,34550,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9712 | accuracy_on_positive=0.9488977955911824 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.5364 
+Train Acc: 60838/74382 (81.79%) 
+Test Acc:  60381/74382 (81.18%) 
+Train Positive Acc: 33982/40333 (84.25%) 
+Test Positive Acc:  33557/39832 (84.25%) 
+Train Negative Acc: 26856/34049 (78.87%) 
+Test Negative Acc:  26824/34550 (77.64%) 
+
+Epoch 002
+Loss: 0.2203 
+Train Acc: 73599/74382 (98.95%) 
+Test Acc:  73595/74382 (98.94%) 
+Train Positive Acc: 39550/40333 (98.06%) 
+Test Positive Acc:  39045/39832 (98.02%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 003
+Loss: 0.0769 
+Train Acc: 73800/74382 (99.22%) 
+Test Acc:  73797/74382 (99.21%) 
+Train Positive Acc: 39751/40333 (98.56%) 
+Test Positive Acc:  39247/39832 (98.53%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 004
+Loss: 0.0635 
+Train Acc: 73800/74382 (99.22%) 
+Test Acc:  73797/74382 (99.21%) 
+Train Positive Acc: 39751/40333 (98.56%) 
+Test Positive Acc:  39247/39832 (98.53%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 005
+Loss: 0.0561 
+Train Acc: 73977/74382 (99.46%) 
+Test Acc:  73974/74382 (99.45%) 
+Train Positive Acc: 39928/40333 (99.00%) 
+Test Positive Acc:  39424/39832 (98.98%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+"
+mean,psi_5*,2,2,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,39832,34550,2(#017*.txt),73627,0.9898,39578,0.9813,34049,1.0,73621,0.9898,39071,0.9809,34550,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9712 | accuracy_on_positive=0.9488977955911824 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9751 | accuracy_on_positive=0.956803720019579 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.2863 
+Train Acc: 73137/74382 (98.33%) 
+Test Acc:  73156/74382 (98.35%) 
+Train Positive Acc: 39088/40333 (96.91%) 
+Test Positive Acc:  38606/39832 (96.92%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 002
+Loss: 0.1091 
+Train Acc: 73482/74382 (98.79%) 
+Test Acc:  73470/74382 (98.77%) 
+Train Positive Acc: 39433/40333 (97.77%) 
+Test Positive Acc:  38920/39832 (97.71%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 003
+Loss: 0.0725 
+Train Acc: 73522/74382 (98.84%) 
+Test Acc:  73512/74382 (98.83%) 
+Train Positive Acc: 39473/40333 (97.87%) 
+Test Positive Acc:  38962/39832 (97.82%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 004
+Loss: 0.0558 
+Train Acc: 73595/74382 (98.94%) 
+Test Acc:  73596/74382 (98.94%) 
+Train Positive Acc: 39546/40333 (98.05%) 
+Test Positive Acc:  39046/39832 (98.03%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+Epoch 005
+Loss: 0.0460 
+Train Acc: 73627/74382 (98.98%) 
+Test Acc:  73621/74382 (98.98%) 
+Train Positive Acc: 39578/40333 (98.13%) 
+Test Positive Acc:  39071/39832 (98.09%) 
+Train Negative Acc: 34049/34049 (100.00%) 
+Test Negative Acc:  34550/34550 (100.00%) 
+
+"
+max,psi_6*,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,3(#013.txt),56386,0.7581,19878,0.5418,36508,0.9686,56506,0.7597,19853,0.5437,36653,0.9679,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.9875 | accuracy_on_positive=1.0 | accuracy_on_negative=0.964300121016539
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7559 | accuracy_on_positive=0.5477386934673367 | accuracy_on_negative=0.968732153055397
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.7033 | accuracy_on_positive=0.4045571148332579 | accuracy_on_negative=0.9659196393051319
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.7037 | accuracy_on_positive=0.3378995433789954 | accuracy_on_negative=0.965717746820109
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.6785 | accuracy_on_positive=0.2773966873013217 | accuracy_on_negative=0.9711878891466244
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.6375 | accuracy_on_positive=0.23522167487684728 | accuracy_on_negative=0.9781021897810219
+",5,"Epoch 001
+Loss: 0.5874 
+Train Acc: 54752/74382 (73.61%) 
+Test Acc:  55178/74382 (74.18%) 
+Train Positive Acc: 19028/36690 (51.86%) 
+Test Positive Acc:  19420/36515 (53.18%) 
+Train Negative Acc: 35724/37692 (94.78%) 
+Test Negative Acc:  35758/37867 (94.43%) 
+
+Epoch 002
+Loss: 0.5074 
+Train Acc: 56386/74382 (75.81%) 
+Test Acc:  56506/74382 (75.97%) 
+Train Positive Acc: 19878/36690 (54.18%) 
+Test Positive Acc:  19853/36515 (54.37%) 
+Train Negative Acc: 36508/37692 (96.86%) 
+Test Negative Acc:  36653/37867 (96.79%) 
+
+Epoch 003
+Loss: 0.4939 
+Train Acc: 56386/74382 (75.81%) 
+Test Acc:  56506/74382 (75.97%) 
+Train Positive Acc: 19878/36690 (54.18%) 
+Test Positive Acc:  19853/36515 (54.37%) 
+Train Negative Acc: 36508/37692 (96.86%) 
+Test Negative Acc:  36653/37867 (96.79%) 
+
+Epoch 004
+Loss: 0.4872 
+Train Acc: 56386/74382 (75.81%) 
+Test Acc:  56506/74382 (75.97%) 
+Train Positive Acc: 19878/36690 (54.18%) 
+Test Positive Acc:  19853/36515 (54.37%) 
+Train Negative Acc: 36508/37692 (96.86%) 
+Test Negative Acc:  36653/37867 (96.79%) 
+
+Epoch 005
+Loss: 0.4843 
+Train Acc: 56386/74382 (75.81%) 
+Test Acc:  56506/74382 (75.97%) 
+Train Positive Acc: 19878/36690 (54.18%) 
+Test Positive Acc:  19853/36515 (54.37%) 
+Train Negative Acc: 36508/37692 (96.86%) 
+Test Negative Acc:  36653/37867 (96.79%) 
+
+"
+sum,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,3(#014*.txt),65436,0.8797,28910,0.788,36526,0.9691,65166,0.8761,28509,0.7807,36657,0.968,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8876 | accuracy_on_positive=0.8846905537459283 | accuracy_on_negative=0.8929003630496167
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.8793 | accuracy_on_positive=0.7801507537688442 | accuracy_on_negative=0.9807252998286693
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8687 | accuracy_on_positive=0.740153915799004 | accuracy_on_negative=0.9817000397825222
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8769 | accuracy_on_positive=0.7491966852697446 | accuracy_on_negative=0.9683827983040582
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8760 | accuracy_on_positive=0.726953321064079 | accuracy_on_negative=0.9847393480649493
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8442 | accuracy_on_positive=0.6724137931034483 | accuracy_on_negative=0.9895724713242962
+",5,"Epoch 001
+Loss: 0.3297 
+Train Acc: 68851/74382 (92.56%) 
+Test Acc:  68796/74382 (92.49%) 
+Train Positive Acc: 31213/36690 (85.07%) 
+Test Positive Acc:  30980/36515 (84.84%) 
+Train Negative Acc: 37638/37692 (99.86%) 
+Test Negative Acc:  37816/37867 (99.87%) 
+
+Epoch 002
+Loss: 0.1482 
+Train Acc: 70800/74382 (95.18%) 
+Test Acc:  70784/74382 (95.16%) 
+Train Positive Acc: 33192/36690 (90.47%) 
+Test Positive Acc:  33002/36515 (90.38%) 
+Train Negative Acc: 37608/37692 (99.78%) 
+Test Negative Acc:  37782/37867 (99.78%) 
+
+Epoch 003
+Loss: 0.1707 
+Train Acc: 65175/74382 (87.62%) 
+Test Acc:  65104/74382 (87.53%) 
+Train Positive Acc: 27485/36690 (74.91%) 
+Test Positive Acc:  27239/36515 (74.60%) 
+Train Negative Acc: 37690/37692 (99.99%) 
+Test Negative Acc:  37865/37867 (99.99%) 
+
+Epoch 004
+Loss: 0.1186 
+Train Acc: 62324/74382 (83.79%) 
+Test Acc:  61890/74382 (83.21%) 
+Train Positive Acc: 28771/36690 (78.42%) 
+Test Positive Acc:  28254/36515 (77.38%) 
+Train Negative Acc: 33553/37692 (89.02%) 
+Test Negative Acc:  33636/37867 (88.83%) 
+
+Epoch 005
+Loss: 0.2374 
+Train Acc: 65436/74382 (87.97%) 
+Test Acc:  65166/74382 (87.61%) 
+Train Positive Acc: 28910/36690 (78.80%) 
+Test Positive Acc:  28509/36515 (78.07%) 
+Train Negative Acc: 36526/37692 (96.91%) 
+Test Negative Acc:  36657/37867 (96.80%) 
+
+"
+mean,psi_6,6,6,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,36515,37867,1,72333,0.9725,34743,0.9469,37590,0.9973,72268,0.9716,34484,0.9444,37784,0.9978,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.9968 | accuracy_on_positive=1.0 | accuracy_on_negative=0.990923759580476
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9697 | accuracy_on_positive=0.9415131211613623 | accuracy_on_negative=0.9985722444317533
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9554 | accuracy_on_positive=0.9052361551229817 | accuracy_on_negative=0.9994695663705079
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9800 | accuracy_on_positive=0.954507018433959 | accuracy_on_negative=0.9983040581465779
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9715 | accuracy_on_positive=0.934080642462774 | accuracy_on_negative=0.998779147845196
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.9094 | accuracy_on_positive=0.8023399014778325 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.5564 
+Train Acc: 68119/74382 (91.58%) 
+Test Acc:  68232/74382 (91.73%) 
+Train Positive Acc: 30443/36690 (82.97%) 
+Test Positive Acc:  30403/36515 (83.26%) 
+Train Negative Acc: 37676/37692 (99.96%) 
+Test Negative Acc:  37829/37867 (99.90%) 
+
+Epoch 002
+Loss: 0.1105 
+Train Acc: 72212/74382 (97.08%) 
+Test Acc:  72247/74382 (97.13%) 
+Train Positive Acc: 34662/36690 (94.47%) 
+Test Positive Acc:  34651/36515 (94.90%) 
+Train Negative Acc: 37550/37692 (99.62%) 
+Test Negative Acc:  37596/37867 (99.28%) 
+
+Epoch 003
+Loss: 0.0749 
+Train Acc: 72735/74382 (97.79%) 
+Test Acc:  72624/74382 (97.64%) 
+Train Positive Acc: 35066/36690 (95.57%) 
+Test Positive Acc:  34770/36515 (95.22%) 
+Train Negative Acc: 37669/37692 (99.94%) 
+Test Negative Acc:  37854/37867 (99.97%) 
+
+Epoch 004
+Loss: 0.0632 
+Train Acc: 72763/74382 (97.82%) 
+Test Acc:  72792/74382 (97.86%) 
+Train Positive Acc: 35195/36690 (95.93%) 
+Test Positive Acc:  35154/36515 (96.27%) 
+Train Negative Acc: 37568/37692 (99.67%) 
+Test Negative Acc:  37638/37867 (99.40%) 
+
+Epoch 005
+Loss: 0.0645 
+Train Acc: 72333/74382 (97.25%) 
+Test Acc:  72268/74382 (97.16%) 
+Train Positive Acc: 34743/36690 (94.69%) 
+Test Positive Acc:  34484/36515 (94.44%) 
+Train Negative Acc: 37590/37692 (99.73%) 
+Test Negative Acc:  37784/37867 (99.78%) 
+
+"
+sum,psi_2*,7,7,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,14025,60357,1,70734,0.951,12942,0.8781,57792,0.969,70812,0.952,12231,0.8721,58581,0.9706,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.8843 | accuracy_on_positive=0.5290601129192959 | accuracy_on_negative=0.980191807833647
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.9353 | accuracy_on_positive=0.9351321886072499 | accuracy_on_negative=0.9353271740165731
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.9683 | accuracy_on_positive=0.9538188277087034 | accuracy_on_negative=0.9719016999911918
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.9792 | accuracy_on_positive=0.9963218390804598 | accuracy_on_negative=0.9761527557742016
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.9838 | accuracy_on_positive=1.0 | accuracy_on_negative=0.98128014387313
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.9881 | accuracy_on_positive=1.0 | accuracy_on_negative=0.9865470852017937
+",5,"Epoch 001
+Loss: 0.2917 
+Train Acc: 67114/74382 (90.23%) 
+Test Acc:  67223/74382 (90.38%) 
+Train Positive Acc: 8776/14739 (59.54%) 
+Test Positive Acc:  8121/14025 (57.90%) 
+Train Negative Acc: 58338/59643 (97.81%) 
+Test Negative Acc:  59102/60357 (97.92%) 
+
+Epoch 002
+Loss: 0.1006 
+Train Acc: 69652/74382 (93.64%) 
+Test Acc:  69734/74382 (93.75%) 
+Train Positive Acc: 14651/14739 (99.40%) 
+Test Positive Acc:  13936/14025 (99.37%) 
+Train Negative Acc: 55001/59643 (92.22%) 
+Test Negative Acc:  55798/60357 (92.45%) 
+
+Epoch 003
+Loss: 0.0775 
+Train Acc: 72690/74382 (97.73%) 
+Test Acc:  72739/74382 (97.79%) 
+Train Positive Acc: 14643/14739 (99.35%) 
+Test Positive Acc:  13936/14025 (99.37%) 
+Train Negative Acc: 58047/59643 (97.32%) 
+Test Negative Acc:  58803/60357 (97.43%) 
+
+Epoch 004
+Loss: 0.1001 
+Train Acc: 70381/74382 (94.62%) 
+Test Acc:  70461/74382 (94.73%) 
+Train Positive Acc: 12331/14739 (83.66%) 
+Test Positive Acc:  11636/14025 (82.97%) 
+Train Negative Acc: 58050/59643 (97.33%) 
+Test Negative Acc:  58825/60357 (97.46%) 
+
+Epoch 005
+Loss: 0.1244 
+Train Acc: 70734/74382 (95.10%) 
+Test Acc:  70812/74382 (95.20%) 
+Train Positive Acc: 12942/14739 (87.81%) 
+Test Positive Acc:  12231/14025 (87.21%) 
+Train Negative Acc: 57792/59643 (96.90%) 
+Test Negative Acc:  58581/60357 (97.06%) 
+
+"
+mean,psi_2*,7,7,"[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]","[3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542, 3542]",74382,14025,60357,3,59643,0.8018,0,0.0,59643,1.0,60357,0.8114,0,0.0,60357,1.0,"  [  0-  3] root neighbors | graphs=14168 | accuracy=0.7875 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  4-  7] root neighbors | graphs=14168 | accuracy=0.7410 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [  8- 11] root neighbors | graphs=14168 | accuracy=0.8013 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 12- 15] root neighbors | graphs=14168 | accuracy=0.8465 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 16- 19] root neighbors | graphs=14168 | accuracy=0.8634 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+  [ 20- 23] root neighbors | graphs=3542 | accuracy=0.8814 | accuracy_on_positive=0.0 | accuracy_on_negative=1.0
+",5,"Epoch 001
+Loss: 0.5010 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 002
+Loss: 0.4979 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 003
+Loss: 0.4979 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 004
+Loss: 0.4979 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+Epoch 005
+Loss: 0.4979 
+Train Acc: 59643/74382 (80.18%) 
+Test Acc:  60357/74382 (81.14%) 
+Train Positive Acc: 0/14739 (0.00%) 
+Test Positive Acc:  0/14025 (0.00%) 
+Train Negative Acc: 59643/59643 (100.00%) 
+Test Negative Acc:  60357/60357 (100.00%) 
+
+"
+max,psi_0,1,1,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,36688,41236,1,70840,1.0,35222,1.0,35618,1.0,77924,1.0,36688,1.0,41236,1.0,"  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=1.0000 | accuracy_on_positive=1.0 | accuracy_on_negative=1.0
+",1,"Epoch 001
+Loss: 0.2050 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77924/77924 (100.00%) 
+Train Positive Acc: 35222/35222 (100.00%) 
+Test Positive Acc:  36688/36688 (100.00%) 
+Train Negative Acc: 35618/35618 (100.00%) 
+Test Negative Acc:  41236/41236 (100.00%) 
+
+"
+sum,psi_0,1,1,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,36688,41236,1,70840,1.0,35222,1.0,35618,1.0,74114,0.9511,32878,0.8962,41236,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9911 / 0.9816 / 1.0000 | accuracy_on_positive=0.9911 / 0.9816 / 1.0000 | accuracy_on_negative=0.9911 / 0.9816 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9285 / 0.8423 / 1.0000 | accuracy_on_positive=0.9285 / 0.8423 / 1.0000 | accuracy_on_negative=0.9285 / 0.8423 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8642 / 0.7284 / 1.0000 | accuracy_on_positive=0.8642 / 0.7284 / 1.0000 | accuracy_on_negative=0.8642 / 0.7284 / 1.0000
+",1,"Epoch 001
+Loss: 0.2272 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  74114/77924 (95.11%) 
+Train Positive Acc: 35222/35222 (100.00%) 
+Test Positive Acc:  32878/36688 (89.62%) 
+Train Negative Acc: 35618/35618 (100.00%) 
+Test Negative Acc:  41236/41236 (100.00%) 
+
+"
+mean,psi_0,1,1,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,36688,41236,1,70840,1.0,35222,1.0,35618,1.0,77924,1.0,36688,1.0,41236,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+",1,"Epoch 001
+Loss: 0.1327 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77924/77924 (100.00%) 
+Train Positive Acc: 35222/35222 (100.00%) 
+Test Positive Acc:  36688/36688 (100.00%) 
+Train Negative Acc: 35618/35618 (100.00%) 
+Test Negative Acc:  41236/41236 (100.00%) 
+
+"
+max,psi_1,4,4,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,64682,13242,1,70840,1.0,36790,1.0,34050,1.0,77924,1.0,64682,1.0,13242,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+",2,"Epoch 001
+Loss: 0.6458 
+Train Acc: 34050/70840 (48.07%) 
+Test Acc:  13242/77924 (16.99%) 
+Train Positive Acc: 0/36790 (0.00%) 
+Test Positive Acc:  0/64682 (0.00%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+Epoch 002
+Loss: 0.1461 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77924/77924 (100.00%) 
+Train Positive Acc: 36790/36790 (100.00%) 
+Test Positive Acc:  64682/64682 (100.00%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+"
+sum,psi_1,4,4,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,64682,13242,1,70840,1.0,36790,1.0,34050,1.0,76213,0.978,62971,0.9735,13242,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9923 / 0.9904 / 1.0000 | accuracy_on_positive=0.9923 / 0.9904 / 1.0000 | accuracy_on_negative=0.9923 / 0.9904 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9695 / 0.9642 / 1.0000 | accuracy_on_positive=0.9695 / 0.9642 / 1.0000 | accuracy_on_negative=0.9695 / 0.9642 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9497 / 0.9422 / 1.0000 | accuracy_on_positive=0.9497 / 0.9422 / 1.0000 | accuracy_on_negative=0.9497 / 0.9422 / 1.0000
+",1,"Epoch 001
+Loss: 0.2220 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  76213/77924 (97.80%) 
+Train Positive Acc: 36790/36790 (100.00%) 
+Test Positive Acc:  62971/64682 (97.35%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+"
+mean,psi_1,4,4,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,64682,13242,1,70824,0.9998,36774,0.9996,34050,1.0,70375,0.9031,57133,0.8833,13242,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.9995 / 0.9993 / 1.0000 | accuracy_on_positive=0.9995 / 0.9993 / 1.0000 | accuracy_on_negative=0.9995 / 0.9993 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9337 / 0.9171 / 1.0000 | accuracy_on_positive=0.9337 / 0.9171 / 1.0000 | accuracy_on_negative=0.9337 / 0.9171 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.8778 / 0.8566 / 1.0000 | accuracy_on_positive=0.8778 / 0.8566 / 1.0000 | accuracy_on_negative=0.8778 / 0.8566 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8770 / 0.8586 / 1.0000 | accuracy_on_positive=0.8770 / 0.8586 / 1.0000 | accuracy_on_negative=0.8770 / 0.8586 / 1.0000
+",5,"Epoch 001
+Loss: 0.3778 
+Train Acc: 69231/70840 (97.73%) 
+Test Acc:  65590/77924 (84.17%) 
+Train Positive Acc: 35181/36790 (95.63%) 
+Test Positive Acc:  52348/64682 (80.93%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+Epoch 002
+Loss: 0.0765 
+Train Acc: 70577/70840 (99.63%) 
+Test Acc:  70118/77924 (89.98%) 
+Train Positive Acc: 36527/36790 (99.29%) 
+Test Positive Acc:  56876/64682 (87.93%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+Epoch 003
+Loss: 0.0368 
+Train Acc: 70748/70840 (99.87%) 
+Test Acc:  71547/77924 (91.82%) 
+Train Positive Acc: 36698/36790 (99.75%) 
+Test Positive Acc:  58305/64682 (90.14%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+Epoch 004
+Loss: 0.0506 
+Train Acc: 70774/70840 (99.91%) 
+Test Acc:  70957/77924 (91.06%) 
+Train Positive Acc: 36724/36790 (99.82%) 
+Test Positive Acc:  57715/64682 (89.23%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+Epoch 005
+Loss: 0.0180 
+Train Acc: 70824/70840 (99.98%) 
+Test Acc:  70375/77924 (90.31%) 
+Train Positive Acc: 36774/36790 (99.96%) 
+Test Positive Acc:  57133/64682 (88.33%) 
+Train Negative Acc: 34050/34050 (100.00%) 
+Test Negative Acc:  13242/13242 (100.00%) 
+
+"
+max,psi_2,7,7,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,12336,65588,1,70840,1.0,16428,1.0,54412,1.0,77924,1.0,12336,1.0,65588,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+",2,"Epoch 001
+Loss: 0.5442 
+Train Acc: 54412/70840 (76.81%) 
+Test Acc:  65588/77924 (84.17%) 
+Train Positive Acc: 0/16428 (0.00%) 
+Test Positive Acc:  0/12336 (0.00%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  65588/65588 (100.00%) 
+
+Epoch 002
+Loss: 0.1989 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77924/77924 (100.00%) 
+Train Positive Acc: 16428/16428 (100.00%) 
+Test Positive Acc:  12336/12336 (100.00%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  65588/65588 (100.00%) 
+
+"
+sum,psi_2,7,7,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,12336,65588,1,70840,1.0,16428,1.0,54412,1.0,76335,0.9796,12336,1.0,63999,0.9758,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9661 / 1.0000 / 0.9602 | accuracy_on_positive=0.9661 / 1.0000 / 0.9602 | accuracy_on_negative=0.9661 / 1.0000 / 0.9602
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9452 / 1.0000 / 0.9379 | accuracy_on_positive=0.9452 / 1.0000 / 0.9379 | accuracy_on_negative=0.9452 / 1.0000 / 0.9379
+",2,"Epoch 001
+Loss: 0.3122 
+Train Acc: 70709/70840 (99.82%) 
+Test Acc:  71507/77924 (91.77%) 
+Train Positive Acc: 16329/16428 (99.40%) 
+Test Positive Acc:  9828/12336 (79.67%) 
+Train Negative Acc: 54380/54412 (99.94%) 
+Test Negative Acc:  61679/65588 (94.04%) 
+
+Epoch 002
+Loss: 0.0512 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  76335/77924 (97.96%) 
+Train Positive Acc: 16428/16428 (100.00%) 
+Test Positive Acc:  12336/12336 (100.00%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  63999/65588 (97.58%) 
+
+"
+mean,psi_2,7,7,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,12336,65588,1,70840,1.0,16428,1.0,54412,1.0,74191,0.9521,12081,0.9793,62110,0.947,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9849 / 0.9916 / 0.9834 | accuracy_on_positive=0.9849 / 0.9916 / 0.9834 | accuracy_on_negative=0.9849 / 0.9916 / 0.9834
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9251 / 0.9684 / 0.9177 | accuracy_on_positive=0.9251 / 0.9684 / 0.9177 | accuracy_on_negative=0.9251 / 0.9684 / 0.9177
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9231 / 0.9560 / 0.9186 | accuracy_on_positive=0.9231 / 0.9560 / 0.9186 | accuracy_on_negative=0.9231 / 0.9560 / 0.9186
+",4,"Epoch 001
+Loss: 0.4866 
+Train Acc: 63212/70840 (89.23%) 
+Test Acc:  69386/77924 (89.04%) 
+Train Positive Acc: 8800/16428 (53.57%) 
+Test Positive Acc:  4475/12336 (36.28%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  64911/65588 (98.97%) 
+
+Epoch 002
+Loss: 0.0823 
+Train Acc: 70813/70840 (99.96%) 
+Test Acc:  75156/77924 (96.45%) 
+Train Positive Acc: 16401/16428 (99.84%) 
+Test Positive Acc:  11182/12336 (90.65%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  63974/65588 (97.54%) 
+
+Epoch 003
+Loss: 0.0981 
+Train Acc: 70781/70840 (99.92%) 
+Test Acc:  73445/77924 (94.25%) 
+Train Positive Acc: 16369/16428 (99.64%) 
+Test Positive Acc:  11116/12336 (90.11%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  62329/65588 (95.03%) 
+
+Epoch 004
+Loss: 0.0198 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  74191/77924 (95.21%) 
+Train Positive Acc: 16428/16428 (100.00%) 
+Test Positive Acc:  12081/12336 (97.93%) 
+Train Negative Acc: 54412/54412 (100.00%) 
+Test Negative Acc:  62110/65588 (94.70%) 
+
+"
+max,psi_3,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,63714,14210,3(#018.txt),52766,0.7449,0,0.0,52766,1.0,14210,0.1824,0,0.0,14210,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9713 / 0.0 / 1.0000 | accuracy_on_positive=0.9713 / 0.0 / 1.0000 | accuracy_on_negative=0.9713 / 0.0 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.5184 / 0.0 / 1.0000 | accuracy_on_positive=0.5184 / 0.0 / 1.0000 | accuracy_on_negative=0.5184 / 0.0 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.2428 / 0.0 / 1.0000 | accuracy_on_positive=0.2428 / 0.0 / 1.0000 | accuracy_on_negative=0.2428 / 0.0 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.1369 / 0.0 / 1.0000 | accuracy_on_positive=0.1369 / 0.0 / 1.0000 | accuracy_on_negative=0.1369 / 0.0 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.1073 / 0.0 / 1.0000 | accuracy_on_positive=0.1073 / 0.0 / 1.0000 | accuracy_on_negative=0.1073 / 0.0 / 1.0000
+",5,"Epoch 001
+Loss: 0.5602 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 002
+Loss: 0.5552 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 003
+Loss: 0.5299 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 004
+Loss: 0.5101 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 005
+Loss: 0.4992 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+"
+sum,psi_3,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,63714,14210,1,70702,0.9981,17936,0.9924,52766,1.0,77889,0.9996,63683,0.9995,14206,0.9997,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9986 / 0.9498 / 1.0000 | accuracy_on_positive=0.9986 / 0.9498 / 1.0000 | accuracy_on_negative=0.9986 / 0.9498 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.9975 / 0.9949 / 1.0000 | accuracy_on_positive=0.9975 / 0.9949 / 1.0000 | accuracy_on_negative=0.9975 / 0.9949 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9994 / 0.9992 / 1.0000 | accuracy_on_positive=0.9994 / 0.9992 / 1.0000 | accuracy_on_negative=0.9994 / 0.9992 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9997 / 0.9997 / 1.0000 | accuracy_on_positive=0.9997 / 0.9997 / 1.0000 | accuracy_on_negative=0.9997 / 0.9997 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9993 / 0.9998 / 0.9947 | accuracy_on_positive=0.9993 / 0.9998 / 0.9947 | accuracy_on_negative=0.9993 / 0.9998 / 0.9947
+",5,"Epoch 001
+Loss: 0.2367 
+Train Acc: 69189/70840 (97.67%) 
+Test Acc:  73451/77924 (94.26%) 
+Train Positive Acc: 16423/18074 (90.87%) 
+Test Positive Acc:  59241/63714 (92.98%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 002
+Loss: 0.0877 
+Train Acc: 70357/70840 (99.32%) 
+Test Acc:  75986/77924 (97.51%) 
+Train Positive Acc: 17591/18074 (97.33%) 
+Test Positive Acc:  61776/63714 (96.96%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 003
+Loss: 0.0553 
+Train Acc: 70813/70840 (99.96%) 
+Test Acc:  77461/77924 (99.41%) 
+Train Positive Acc: 18047/18074 (99.85%) 
+Test Positive Acc:  63251/63714 (99.27%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 004
+Loss: 0.0433 
+Train Acc: 70702/70840 (99.81%) 
+Test Acc:  77893/77924 (99.96%) 
+Train Positive Acc: 17936/18074 (99.24%) 
+Test Positive Acc:  63683/63714 (99.95%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 005
+Loss: 0.0377 
+Train Acc: 70702/70840 (99.81%) 
+Test Acc:  77889/77924 (99.96%) 
+Train Positive Acc: 17936/18074 (99.24%) 
+Test Positive Acc:  63683/63714 (99.95%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14206/14210 (99.97%) 
+
+"
+mean,psi_3,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,63714,14210,3(#019.txt),52766,0.7449,0,0.0,52766,1.0,14210,0.1824,0,0.0,14210,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9713 / 0.0 / 1.0000 | accuracy_on_positive=0.9713 / 0.0 / 1.0000 | accuracy_on_negative=0.9713 / 0.0 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.5184 / 0.0 / 1.0000 | accuracy_on_positive=0.5184 / 0.0 / 1.0000 | accuracy_on_negative=0.5184 / 0.0 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.2428 / 0.0 / 1.0000 | accuracy_on_positive=0.2428 / 0.0 / 1.0000 | accuracy_on_negative=0.2428 / 0.0 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.1369 / 0.0 / 1.0000 | accuracy_on_positive=0.1369 / 0.0 / 1.0000 | accuracy_on_negative=0.1369 / 0.0 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.1073 / 0.0 / 1.0000 | accuracy_on_positive=0.1073 / 0.0 / 1.0000 | accuracy_on_negative=0.1073 / 0.0 / 1.0000
+",5,"Epoch 001
+Loss: 0.5231 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 002
+Loss: 0.4759 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 003
+Loss: 0.4642 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 004
+Loss: 0.4535 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+Epoch 005
+Loss: 0.3932 
+Train Acc: 52766/70840 (74.49%) 
+Test Acc:  14210/77924 (18.24%) 
+Train Positive Acc: 0/18074 (0.00%) 
+Test Positive Acc:  0/63714 (0.00%) 
+Train Negative Acc: 52766/52766 (100.00%) 
+Test Negative Acc:  14210/14210 (100.00%) 
+
+"
+max,psi_4,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,28834,49090,3(#020.txt),50903,0.7186,17957,0.5069,32946,0.9304,29776,0.3821,16845,0.5842,12931,0.2634,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.8314 / 0.4101 / 1.0000 | accuracy_on_positive=0.8314 / 0.4101 / 1.0000 | accuracy_on_negative=0.8314 / 0.4101 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.6057 / 0.5456 / 0.7562 | accuracy_on_positive=0.6057 / 0.5456 / 0.7562 | accuracy_on_negative=0.6057 / 0.5456 / 0.7562
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.4486 / 0.5809 / 0.3295 | accuracy_on_positive=0.4486 / 0.5809 / 0.3295 | accuracy_on_negative=0.4486 / 0.5809 / 0.3295
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.3338 / 0.5885 / 0.2279 | accuracy_on_positive=0.3338 / 0.5885 / 0.2279 | accuracy_on_negative=0.3338 / 0.5885 / 0.2279
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.2914 / 0.5904 / 0.1999 | accuracy_on_positive=0.2914 / 0.5904 / 0.1999 | accuracy_on_negative=0.2914 / 0.5904 / 0.1999
+",5,"Epoch 001
+Loss: 0.5280 
+Train Acc: 53105/70840 (74.96%) 
+Test Acc:  30534/77924 (39.18%) 
+Train Positive Acc: 28301/35428 (79.88%) 
+Test Positive Acc:  25729/28834 (89.23%) 
+Train Negative Acc: 24804/35412 (70.04%) 
+Test Negative Acc:  4805/49090 (9.79%) 
+
+Epoch 002
+Loss: 0.4388 
+Train Acc: 52078/70840 (73.51%) 
+Test Acc:  30141/77924 (38.68%) 
+Train Positive Acc: 23435/35428 (66.15%) 
+Test Positive Acc:  21540/28834 (74.70%) 
+Train Negative Acc: 28643/35412 (80.89%) 
+Test Negative Acc:  8601/49090 (17.52%) 
+
+Epoch 003
+Loss: 0.4286 
+Train Acc: 50903/70840 (71.86%) 
+Test Acc:  29776/77924 (38.21%) 
+Train Positive Acc: 17957/35428 (50.69%) 
+Test Positive Acc:  16845/28834 (58.42%) 
+Train Negative Acc: 32946/35412 (93.04%) 
+Test Negative Acc:  12931/49090 (26.34%) 
+
+Epoch 004
+Loss: 0.4269 
+Train Acc: 50903/70840 (71.86%) 
+Test Acc:  29776/77924 (38.21%) 
+Train Positive Acc: 17957/35428 (50.69%) 
+Test Positive Acc:  16845/28834 (58.42%) 
+Train Negative Acc: 32946/35412 (93.04%) 
+Test Negative Acc:  12931/49090 (26.34%) 
+
+Epoch 005
+Loss: 0.4244 
+Train Acc: 50903/70840 (71.86%) 
+Test Acc:  29776/77924 (38.21%) 
+Train Positive Acc: 17957/35428 (50.69%) 
+Test Positive Acc:  16845/28834 (58.42%) 
+Train Negative Acc: 32946/35412 (93.04%) 
+Test Negative Acc:  12931/49090 (26.34%) 
+
+"
+sum,psi_4,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,28834,49090,1,70840,1.0,35428,1.0,35412,1.0,36683,0.4708,20827,0.7223,15856,0.323,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.7664 / 0.7260 / 0.8028 | accuracy_on_positive=0.7664 / 0.7260 / 0.8028 | accuracy_on_negative=0.7664 / 0.7260 / 0.8028
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.2224 / 0.6721 / 0.0354 | accuracy_on_positive=0.2224 / 0.6721 / 0.0354 | accuracy_on_negative=0.2224 / 0.6721 / 0.0354
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.2343 / 1.0000 / 0.0 | accuracy_on_positive=0.2343 / 1.0000 / 0.0 | accuracy_on_negative=0.2343 / 1.0000 / 0.0
+",2,"Epoch 001
+Loss: 0.2999 
+Train Acc: 70066/70840 (98.91%) 
+Test Acc:  30709/77924 (39.41%) 
+Train Positive Acc: 35428/35428 (100.00%) 
+Test Positive Acc:  23631/28834 (81.96%) 
+Train Negative Acc: 34638/35412 (97.81%) 
+Test Negative Acc:  7078/49090 (14.42%) 
+
+Epoch 002
+Loss: 0.0507 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  36683/77924 (47.08%) 
+Train Positive Acc: 35428/35428 (100.00%) 
+Test Positive Acc:  20827/28834 (72.23%) 
+Train Negative Acc: 35412/35412 (100.00%) 
+Test Negative Acc:  15856/49090 (32.30%) 
+
+"
+sum,psi_4,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,28834,49090,1,70840,1.0,35428,1.0,35412,1.0,60609,0.7778,28834,1.0,31775,0.6473,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9251 / 1.0000 / 0.8577 | accuracy_on_positive=0.9251 / 1.0000 / 0.8577 | accuracy_on_negative=0.9251 / 1.0000 / 0.8577
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.6753 / 1.0000 / 0.5403 | accuracy_on_positive=0.6753 / 1.0000 / 0.5403 | accuracy_on_negative=0.6753 / 1.0000 / 0.5403
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.5538 / 1.0000 / 0.4172 | accuracy_on_positive=0.5538 / 1.0000 / 0.4172 | accuracy_on_negative=0.5538 / 1.0000 / 0.4172
+",4,"Epoch 001
+Loss: 0.5264 
+Train Acc: 55644/70840 (78.55%) 
+Test Acc:  28834/77924 (37.00%) 
+Train Positive Acc: 25305/35428 (71.43%) 
+Test Positive Acc:  28834/28834 (100.00%) 
+Train Negative Acc: 30339/35412 (85.67%) 
+Test Negative Acc:  0/49090 (0.00%) 
+
+Epoch 002
+Loss: 0.4458 
+Train Acc: 42717/70840 (60.30%) 
+Test Acc:  28088/77924 (36.05%) 
+Train Positive Acc: 13554/35428 (38.26%) 
+Test Positive Acc:  17895/28834 (62.06%) 
+Train Negative Acc: 29163/35412 (82.35%) 
+Test Negative Acc:  10193/49090 (20.76%) 
+
+Epoch 003
+Loss: 0.2619 
+Train Acc: 69328/70840 (97.87%) 
+Test Acc:  47008/77924 (60.33%) 
+Train Positive Acc: 35428/35428 (100.00%) 
+Test Positive Acc:  28834/28834 (100.00%) 
+Train Negative Acc: 33900/35412 (95.73%) 
+Test Negative Acc:  18174/49090 (37.02%) 
+
+Epoch 004
+Loss: 0.0670 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  60609/77924 (77.78%) 
+Train Positive Acc: 35428/35428 (100.00%) 
+Test Positive Acc:  28834/28834 (100.00%) 
+Train Negative Acc: 35412/35412 (100.00%) 
+Test Negative Acc:  31775/49090 (64.73%) 
+
+"
+mean,psi_4,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,28834,49090,3(#021.txt),56479,0.7973,27257,0.7694,29222,0.8252,32004,0.4107,18853,0.6538,13151,0.2679,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.7184 / 0.5498 / 0.7859 | accuracy_on_positive=0.7184 / 0.5498 / 0.7859 | accuracy_on_negative=0.7184 / 0.5498 / 0.7859
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.8761 / 0.8572 / 0.9235 | accuracy_on_positive=0.8761 / 0.8572 / 0.9235 | accuracy_on_negative=0.8761 / 0.8572 / 0.9235
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.5516 / 0.7568 / 0.3671 | accuracy_on_positive=0.5516 / 0.7568 / 0.3671 | accuracy_on_negative=0.5516 / 0.7568 / 0.3671
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.3090 / 0.5425 / 0.2119 | accuracy_on_positive=0.3090 / 0.5425 / 0.2119 | accuracy_on_negative=0.3090 / 0.5425 / 0.2119
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.2147 / 0.3114 / 0.1851 | accuracy_on_positive=0.2147 / 0.3114 / 0.1851 | accuracy_on_negative=0.2147 / 0.3114 / 0.1851
+",5,"Epoch 001
+Loss: 0.6174 
+Train Acc: 56016/70840 (79.07%) 
+Test Acc:  14648/77924 (18.80%) 
+Train Positive Acc: 30297/35428 (85.52%) 
+Test Positive Acc:  9301/28834 (32.26%) 
+Train Negative Acc: 25719/35412 (72.63%) 
+Test Negative Acc:  5347/49090 (10.89%) 
+
+Epoch 002
+Loss: 0.4475 
+Train Acc: 57070/70840 (80.56%) 
+Test Acc:  22571/77924 (28.97%) 
+Train Positive Acc: 33744/35428 (95.25%) 
+Test Positive Acc:  17825/28834 (61.82%) 
+Train Negative Acc: 23326/35412 (65.87%) 
+Test Negative Acc:  4746/49090 (9.67%) 
+
+Epoch 003
+Loss: 0.4160 
+Train Acc: 55234/70840 (77.97%) 
+Test Acc:  18378/77924 (23.58%) 
+Train Positive Acc: 25674/35428 (72.47%) 
+Test Positive Acc:  11858/28834 (41.13%) 
+Train Negative Acc: 29560/35412 (83.47%) 
+Test Negative Acc:  6520/49090 (13.28%) 
+
+Epoch 004
+Loss: 0.4033 
+Train Acc: 56188/70840 (79.32%) 
+Test Acc:  28348/77924 (36.38%) 
+Train Positive Acc: 26508/35428 (74.82%) 
+Test Positive Acc:  16152/28834 (56.02%) 
+Train Negative Acc: 29680/35412 (83.81%) 
+Test Negative Acc:  12196/49090 (24.84%) 
+
+Epoch 005
+Loss: 0.4000 
+Train Acc: 56479/70840 (79.73%) 
+Test Acc:  32004/77924 (41.07%) 
+Train Positive Acc: 27257/35428 (76.94%) 
+Test Positive Acc:  18853/28834 (65.38%) 
+Train Negative Acc: 29222/35412 (82.52%) 
+Test Negative Acc:  13151/49090 (26.79%) 
+
+"
+max,psi_5,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,44720,33204,3(#023.txt),50903,0.7186,17622,0.4972,33281,0.9403,40758,0.523,9635,0.2155,31123,0.9373,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.8157 / 0.6380 / 0.9706 | accuracy_on_positive=0.8157 / 0.6380 / 0.9706 | accuracy_on_negative=0.8157 / 0.6380 / 0.9706
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.6215 / 0.3746 / 0.9054 | accuracy_on_positive=0.6215 / 0.3746 / 0.9054 | accuracy_on_negative=0.6215 / 0.3746 / 0.9054
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.5333 / 0.2478 / 0.9296 | accuracy_on_positive=0.5333 / 0.2478 / 0.9296 | accuracy_on_negative=0.5333 / 0.2478 / 0.9296
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.5105 / 0.1902 / 0.9432 | accuracy_on_positive=0.5105 / 0.1902 / 0.9432 | accuracy_on_negative=0.5105 / 0.1902 / 0.9432
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.5342 / 0.1755 / 0.9455 | accuracy_on_positive=0.5342 / 0.1755 / 0.9455 | accuracy_on_negative=0.5342 / 0.1755 / 0.9455
+",5,"Epoch 001
+Loss: 0.6279 
+Train Acc: 48269/70840 (68.14%) 
+Test Acc:  42617/77924 (54.69%) 
+Train Positive Acc: 17174/35445 (48.45%) 
+Test Positive Acc:  16687/44720 (37.31%) 
+Train Negative Acc: 31095/35395 (87.85%) 
+Test Negative Acc:  25930/33204 (78.09%) 
+
+Epoch 002
+Loss: 0.5324 
+Train Acc: 53891/70840 (76.07%) 
+Test Acc:  49526/77924 (63.56%) 
+Train Positive Acc: 29326/35445 (82.74%) 
+Test Positive Acc:  40517/44720 (90.60%) 
+Train Negative Acc: 24565/35395 (69.40%) 
+Test Negative Acc:  9009/33204 (27.13%) 
+
+Epoch 003
+Loss: 0.4729 
+Train Acc: 53891/70840 (76.07%) 
+Test Acc:  49526/77924 (63.56%) 
+Train Positive Acc: 29326/35445 (82.74%) 
+Test Positive Acc:  40517/44720 (90.60%) 
+Train Negative Acc: 24565/35395 (69.40%) 
+Test Negative Acc:  9009/33204 (27.13%) 
+
+Epoch 004
+Loss: 0.4512 
+Train Acc: 53891/70840 (76.07%) 
+Test Acc:  49526/77924 (63.56%) 
+Train Positive Acc: 29326/35445 (82.74%) 
+Test Positive Acc:  40517/44720 (90.60%) 
+Train Negative Acc: 24565/35395 (69.40%) 
+Test Negative Acc:  9009/33204 (27.13%) 
+
+Epoch 005
+Loss: 0.4398 
+Train Acc: 50903/70840 (71.86%) 
+Test Acc:  40758/77924 (52.30%) 
+Train Positive Acc: 17622/35445 (49.72%) 
+Test Positive Acc:  9635/44720 (21.55%) 
+Train Negative Acc: 33281/35395 (94.03%) 
+Test Negative Acc:  31123/33204 (93.73%) 
+
+"
+sum,psi_5,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,44720,33204,1,70840,1.0,35445,1.0,35395,1.0,74740,0.9591,41536,0.9288,33204,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9572 / 0.9264 / 1.0000 | accuracy_on_positive=0.9572 / 0.9264 / 1.0000 | accuracy_on_negative=0.9572 / 0.9264 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9529 / 0.9180 / 1.0000 | accuracy_on_positive=0.9529 / 0.9180 / 1.0000 | accuracy_on_negative=0.9529 / 0.9180 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+",3,"Epoch 001
+Loss: 0.6270 
+Train Acc: 49493/70840 (69.87%) 
+Test Acc:  37494/77924 (48.12%) 
+Train Positive Acc: 19853/35445 (56.01%) 
+Test Positive Acc:  4290/44720 (9.59%) 
+Train Negative Acc: 29640/35395 (83.74%) 
+Test Negative Acc:  33204/33204 (100.00%) 
+
+Epoch 002
+Loss: 0.1795 
+Train Acc: 70486/70840 (99.50%) 
+Test Acc:  74740/77924 (95.91%) 
+Train Positive Acc: 35091/35445 (99.00%) 
+Test Positive Acc:  41536/44720 (92.88%) 
+Train Negative Acc: 35395/35395 (100.00%) 
+Test Negative Acc:  33204/33204 (100.00%) 
+
+Epoch 003
+Loss: 0.0775 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  74740/77924 (95.91%) 
+Train Positive Acc: 35445/35445 (100.00%) 
+Test Positive Acc:  41536/44720 (92.88%) 
+Train Negative Acc: 35395/35395 (100.00%) 
+Test Negative Acc:  33204/33204 (100.00%) 
+
+"
+mean,psi_5,2,2,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,44720,33204,1,70646,0.9973,35445,1.0,35201,0.9945,76126,0.9769,43229,0.9667,32897,0.9908,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.9945 / 1.0000 / 0.9882 | accuracy_on_positive=0.9945 / 1.0000 / 0.9882 | accuracy_on_negative=0.9945 / 1.0000 / 0.9882
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9766 / 0.9597 / 1.0000 | accuracy_on_positive=0.9766 / 0.9597 / 1.0000 | accuracy_on_negative=0.9766 / 0.9597 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9768 / 0.9675 / 0.9893 | accuracy_on_positive=0.9768 / 0.9675 / 0.9893 | accuracy_on_negative=0.9768 / 0.9675 / 0.9893
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9794 / 1.0000 / 0.9558 | accuracy_on_positive=0.9794 / 1.0000 / 0.9558 | accuracy_on_negative=0.9794 / 1.0000 / 0.9558
+",5,"Epoch 001
+Loss: 0.4147 
+Train Acc: 62436/70840 (88.14%) 
+Test Acc:  70917/77924 (91.01%) 
+Train Positive Acc: 31084/35445 (87.70%) 
+Test Positive Acc:  38349/44720 (85.75%) 
+Train Negative Acc: 31352/35395 (88.58%) 
+Test Negative Acc:  32568/33204 (98.08%) 
+
+Epoch 002
+Loss: 0.2587 
+Train Acc: 64895/70840 (91.61%) 
+Test Acc:  75257/77924 (96.58%) 
+Train Positive Acc: 33042/35445 (93.22%) 
+Test Positive Acc:  42073/44720 (94.08%) 
+Train Negative Acc: 31853/35395 (89.99%) 
+Test Negative Acc:  33184/33204 (99.94%) 
+
+Epoch 003
+Loss: 0.2060 
+Train Acc: 67265/70840 (94.95%) 
+Test Acc:  76167/77924 (97.75%) 
+Train Positive Acc: 35445/35445 (100.00%) 
+Test Positive Acc:  43043/44720 (96.25%) 
+Train Negative Acc: 31820/35395 (89.90%) 
+Test Negative Acc:  33124/33204 (99.76%) 
+
+Epoch 004
+Loss: 0.1760 
+Train Acc: 70646/70840 (99.73%) 
+Test Acc:  76042/77924 (97.58%) 
+Train Positive Acc: 35445/35445 (100.00%) 
+Test Positive Acc:  43095/44720 (96.37%) 
+Train Negative Acc: 35201/35395 (99.45%) 
+Test Negative Acc:  32947/33204 (99.23%) 
+
+Epoch 005
+Loss: 0.1544 
+Train Acc: 70646/70840 (99.73%) 
+Test Acc:  76126/77924 (97.69%) 
+Train Positive Acc: 35445/35445 (100.00%) 
+Test Positive Acc:  43229/44720 (96.67%) 
+Train Negative Acc: 35201/35395 (99.45%) 
+Test Negative Acc:  32897/33204 (99.08%) 
+
+"
+max,psi_6,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,34180,43744,3(#024.txt),59805,0.8442,29102,0.7457,30703,0.965,53087,0.6813,10629,0.311,42458,0.9706,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9386 / 0.9196 / 0.9722 | accuracy_on_positive=0.9386 / 0.9196 / 0.9722 | accuracy_on_negative=0.9386 / 0.9196 / 0.9722
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.7499 / 0.5046 / 0.9602 | accuracy_on_positive=0.7499 / 0.5046 / 0.9602 | accuracy_on_negative=0.7499 / 0.5046 / 0.9602
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.6909 / 0.3530 / 0.9680 | accuracy_on_positive=0.6909 / 0.3530 / 0.9680 | accuracy_on_negative=0.6909 / 0.3530 / 0.9680
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.6804 / 0.2826 / 0.9717 | accuracy_on_positive=0.6804 / 0.2826 / 0.9717 | accuracy_on_negative=0.6804 / 0.2826 / 0.9717
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.6375 / 0.2352 / 0.9781 | accuracy_on_positive=0.6375 / 0.2352 / 0.9781 | accuracy_on_negative=0.6375 / 0.2352 / 0.9781
+",5,"Epoch 001
+Loss: 0.5790 
+Train Acc: 57267/70840 (80.84%) 
+Test Acc:  48665/77924 (62.45%) 
+Train Positive Acc: 26360/39025 (67.55%) 
+Test Positive Acc:  5407/34180 (15.82%) 
+Train Negative Acc: 30907/31815 (97.15%) 
+Test Negative Acc:  43258/43744 (98.89%) 
+
+Epoch 002
+Loss: 0.3826 
+Train Acc: 57551/70840 (81.24%) 
+Test Acc:  48598/77924 (62.37%) 
+Train Positive Acc: 26016/39025 (66.66%) 
+Test Positive Acc:  5189/34180 (15.18%) 
+Train Negative Acc: 31535/31815 (99.12%) 
+Test Negative Acc:  43409/43744 (99.23%) 
+
+Epoch 003
+Loss: 0.3416 
+Train Acc: 59805/70840 (84.42%) 
+Test Acc:  53087/77924 (68.13%) 
+Train Positive Acc: 29102/39025 (74.57%) 
+Test Positive Acc:  10629/34180 (31.10%) 
+Train Negative Acc: 30703/31815 (96.50%) 
+Test Negative Acc:  42458/43744 (97.06%) 
+
+Epoch 004
+Loss: 0.3373 
+Train Acc: 59805/70840 (84.42%) 
+Test Acc:  53087/77924 (68.13%) 
+Train Positive Acc: 29102/39025 (74.57%) 
+Test Positive Acc:  10629/34180 (31.10%) 
+Train Negative Acc: 30703/31815 (96.50%) 
+Test Negative Acc:  42458/43744 (97.06%) 
+
+Epoch 005
+Loss: 0.3354 
+Train Acc: 59805/70840 (84.42%) 
+Test Acc:  53087/77924 (68.13%) 
+Train Positive Acc: 29102/39025 (74.57%) 
+Test Positive Acc:  10629/34180 (31.10%) 
+Train Negative Acc: 30703/31815 (96.50%) 
+Test Negative Acc:  42458/43744 (97.06%) 
+
+"
+sum,psi_6,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,34180,43744,3(#025.txt),68341,0.9647,36558,0.9368,31783,0.999,71322,0.9153,29625,0.8667,41697,0.9532,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9715 / 0.9555 / 1.0000 | accuracy_on_positive=0.9715 / 0.9555 / 1.0000 | accuracy_on_negative=0.9715 / 0.9555 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.9580 / 0.9109 / 0.9983 | accuracy_on_positive=0.9580 / 0.9109 / 0.9983 | accuracy_on_negative=0.9580 / 0.9109 / 0.9983
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9243 / 0.8685 / 0.9700 | accuracy_on_positive=0.9243 / 0.8685 / 0.9700 | accuracy_on_negative=0.9243 / 0.8685 / 0.9700
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9097 / 0.8710 / 0.9380 | accuracy_on_positive=0.9097 / 0.8710 / 0.9380 | accuracy_on_negative=0.9097 / 0.8710 / 0.9380
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8984 / 0.8387 / 0.9489 | accuracy_on_positive=0.8984 / 0.8387 / 0.9489 | accuracy_on_negative=0.8984 / 0.8387 / 0.9489
+",5,"Epoch 001
+Loss: 0.3538 
+Train Acc: 65866/70840 (92.98%) 
+Test Acc:  68242/77924 (87.58%) 
+Train Positive Acc: 35931/39025 (92.07%) 
+Test Positive Acc:  27560/34180 (80.63%) 
+Train Negative Acc: 29935/31815 (94.09%) 
+Test Negative Acc:  40682/43744 (93.00%) 
+
+Epoch 002
+Loss: 0.1342 
+Train Acc: 69568/70840 (98.20%) 
+Test Acc:  70287/77924 (90.20%) 
+Train Positive Acc: 37933/39025 (97.20%) 
+Test Positive Acc:  28087/34180 (82.17%) 
+Train Negative Acc: 31635/31815 (99.43%) 
+Test Negative Acc:  42200/43744 (96.47%) 
+
+Epoch 003
+Loss: 0.0874 
+Train Acc: 67437/70840 (95.20%) 
+Test Acc:  69216/77924 (88.83%) 
+Train Positive Acc: 36124/39025 (92.57%) 
+Test Positive Acc:  27716/34180 (81.09%) 
+Train Negative Acc: 31313/31815 (98.42%) 
+Test Negative Acc:  41500/43744 (94.87%) 
+
+Epoch 004
+Loss: 0.0543 
+Train Acc: 70683/70840 (99.78%) 
+Test Acc:  72805/77924 (93.43%) 
+Train Positive Acc: 38933/39025 (99.76%) 
+Test Positive Acc:  30884/34180 (90.36%) 
+Train Negative Acc: 31750/31815 (99.80%) 
+Test Negative Acc:  41921/43744 (95.83%) 
+
+Epoch 005
+Loss: 0.0373 
+Train Acc: 68341/70840 (96.47%) 
+Test Acc:  71322/77924 (91.53%) 
+Train Positive Acc: 36558/39025 (93.68%) 
+Test Positive Acc:  29625/34180 (86.67%) 
+Train Negative Acc: 31783/31815 (99.90%) 
+Test Negative Acc:  41697/43744 (95.32%) 
+
+"
+mean,psi_6,6,6,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,34180,43744,1,70840,1.0,39025,1.0,31815,1.0,77041,0.9887,33464,0.9791,43577,0.9962,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9845 / 0.9736 / 0.9935 | accuracy_on_positive=0.9845 / 0.9736 / 0.9935 | accuracy_on_negative=0.9845 / 0.9736 / 0.9935
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9972 / 0.9960 / 0.9980 | accuracy_on_positive=0.9972 / 0.9960 / 0.9980 | accuracy_on_negative=0.9972 / 0.9960 / 0.9980
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9670 / 0.9280 / 1.0000 | accuracy_on_positive=0.9670 / 0.9280 / 1.0000 | accuracy_on_negative=0.9670 / 0.9280 / 1.0000
+",4,"Epoch 001
+Loss: 0.3214 
+Train Acc: 66451/70840 (93.80%) 
+Test Acc:  70245/77924 (90.15%) 
+Train Positive Acc: 36647/39025 (93.91%) 
+Test Positive Acc:  28799/34180 (84.26%) 
+Train Negative Acc: 29804/31815 (93.68%) 
+Test Negative Acc:  41446/43744 (94.75%) 
+
+Epoch 002
+Loss: 0.1135 
+Train Acc: 70251/70840 (99.17%) 
+Test Acc:  75138/77924 (96.42%) 
+Train Positive Acc: 38436/39025 (98.49%) 
+Test Positive Acc:  31703/34180 (92.75%) 
+Train Negative Acc: 31815/31815 (100.00%) 
+Test Negative Acc:  43435/43744 (99.29%) 
+
+Epoch 003
+Loss: 0.0850 
+Train Acc: 68802/70840 (97.12%) 
+Test Acc:  75286/77924 (96.61%) 
+Train Positive Acc: 38845/39025 (99.54%) 
+Test Positive Acc:  33634/34180 (98.40%) 
+Train Negative Acc: 29957/31815 (94.16%) 
+Test Negative Acc:  41652/43744 (95.22%) 
+
+Epoch 004
+Loss: 0.0249 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77041/77924 (98.87%) 
+Train Positive Acc: 39025/39025 (100.00%) 
+Test Positive Acc:  33464/34180 (97.91%) 
+Train Negative Acc: 31815/31815 (100.00%) 
+Test Negative Acc:  43577/43744 (99.62%) 
+
+"
+max,psi_9,3,3,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,7071,70853,2(#026.txt),65057,0.9184,17704,0.7538,47353,1.0,72512,0.9305,1659,0.2346,70853,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9372 / 0.8721 / 1.0000 | accuracy_on_positive=0.9372 / 0.8721 / 1.0000 | accuracy_on_negative=0.9372 / 0.8721 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.8996 / 0.4152 / 1.0000 | accuracy_on_positive=0.8996 / 0.4152 / 1.0000 | accuracy_on_negative=0.8996 / 0.4152 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9211 / 0.2685 / 1.0000 | accuracy_on_positive=0.9211 / 0.2685 / 1.0000 | accuracy_on_negative=0.9211 / 0.2685 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9374 / 0.1986 / 1.0000 | accuracy_on_positive=0.9374 / 0.1986 / 1.0000 | accuracy_on_negative=0.9374 / 0.1986 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9435 / 0.1736 / 1.0000 | accuracy_on_positive=0.9435 / 0.1736 / 1.0000 | accuracy_on_negative=0.9435 / 0.1736 / 1.0000
+",5,"Epoch 001
+Loss: 0.5028 
+Train Acc: 61515/70840 (86.84%) 
+Test Acc:  72512/77924 (93.05%) 
+Train Positive Acc: 14162/23487 (60.30%) 
+Test Positive Acc:  1659/7071 (23.46%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+Epoch 002
+Loss: 0.3110 
+Train Acc: 65057/70840 (91.84%) 
+Test Acc:  72512/77924 (93.05%) 
+Train Positive Acc: 17704/23487 (75.38%) 
+Test Positive Acc:  1659/7071 (23.46%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+Epoch 003
+Loss: 0.2763 
+Train Acc: 65057/70840 (91.84%) 
+Test Acc:  72512/77924 (93.05%) 
+Train Positive Acc: 17704/23487 (75.38%) 
+Test Positive Acc:  1659/7071 (23.46%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+Epoch 004
+Loss: 0.2633 
+Train Acc: 65057/70840 (91.84%) 
+Test Acc:  72512/77924 (93.05%) 
+Train Positive Acc: 17704/23487 (75.38%) 
+Test Positive Acc:  1659/7071 (23.46%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+Epoch 005
+Loss: 0.2580 
+Train Acc: 65057/70840 (91.84%) 
+Test Acc:  72512/77924 (93.05%) 
+Train Positive Acc: 17704/23487 (75.38%) 
+Test Positive Acc:  1659/7071 (23.46%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+"
+sum,9,3,3,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,7071,70853,1,70840,1.0,23487,1.0,47353,1.0,75081,0.9635,4228,0.5979,70853,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.9946 / 0.9497 / 1.0000 | accuracy_on_positive=0.9946 / 0.9497 / 1.0000 | accuracy_on_negative=0.9946 / 0.9497 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.9388 / 0.2174 / 1.0000 | accuracy_on_positive=0.9388 / 0.2174 / 1.0000 | accuracy_on_negative=0.9388 / 0.2174 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9317 / 0.0 / 1.0000 | accuracy_on_positive=0.9317 / 0.0 / 1.0000 | accuracy_on_negative=0.9317 / 0.0 / 1.0000
+",1,"Epoch 001
+Loss: 0.3352 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  75081/77924 (96.35%) 
+Train Positive Acc: 23487/23487 (100.00%) 
+Test Positive Acc:  4228/7071 (59.79%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+"
+mean,psi_9,3,3,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,7071,70853,3(#026.txt),70840,1.0,23487,1.0,47353,1.0,77922,1.0,7071,1.0,70851,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=1.0000 / 1.0000 / 1.0000 | accuracy_on_positive=1.0000 / 1.0000 / 1.0000 | accuracy_on_negative=1.0000 / 1.0000 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.9997 / 1.0000 / 0.9997 | accuracy_on_positive=0.9997 / 1.0000 / 0.9997 | accuracy_on_negative=0.9997 / 1.0000 / 0.9997
+",2,"Epoch 001
+Loss: 0.5272 
+Train Acc: 54437/70840 (76.85%) 
+Test Acc:  70853/77924 (90.93%) 
+Train Positive Acc: 7084/23487 (30.16%) 
+Test Positive Acc:  0/7071 (0.00%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70853/70853 (100.00%) 
+
+Epoch 002
+Loss: 0.3465 
+Train Acc: 70840/70840 (100.00%) 
+Test Acc:  77922/77924 (100.00%) 
+Train Positive Acc: 23487/23487 (100.00%) 
+Test Positive Acc:  7071/7071 (100.00%) 
+Train Negative Acc: 47353/47353 (100.00%) 
+Test Negative Acc:  70851/70853 (100.00%) 
+
+"
+max,psi_10,8,8,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,13805,64119,3(#028.txt),61859,0.8732,28343,0.7594,33516,1.0,67552,0.8669,3433,0.2487,64119,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.9315 / 0.9056 / 1.0000 | accuracy_on_positive=0.9315 / 0.9056 / 1.0000 | accuracy_on_negative=0.9315 / 0.9056 / 1.0000
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.8150 / 0.4360 / 1.0000 | accuracy_on_positive=0.8150 / 0.4360 / 1.0000 | accuracy_on_negative=0.8150 / 0.4360 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.8513 / 0.2845 / 1.0000 | accuracy_on_positive=0.8513 / 0.2845 / 1.0000 | accuracy_on_negative=0.8513 / 0.2845 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.8772 / 0.2120 / 1.0000 | accuracy_on_positive=0.8772 / 0.2120 / 1.0000 | accuracy_on_negative=0.8772 / 0.2120 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8933 / 0.1818 / 1.0000 | accuracy_on_positive=0.8933 / 0.1818 / 1.0000 | accuracy_on_negative=0.8933 / 0.1818 / 1.0000
+",5,"Epoch 001
+Loss: 0.6402 
+Train Acc: 47961/70840 (67.70%) 
+Test Acc:  63645/77924 (81.68%) 
+Train Positive Acc: 16403/37324 (43.95%) 
+Test Positive Acc:  347/13805 (2.51%) 
+Train Negative Acc: 31558/33516 (94.16%) 
+Test Negative Acc:  63298/64119 (98.72%) 
+
+Epoch 002
+Loss: 0.5445 
+Train Acc: 50746/70840 (71.63%) 
+Test Acc:  64444/77924 (82.70%) 
+Train Positive Acc: 19188/37324 (51.41%) 
+Test Positive Acc:  1146/13805 (8.30%) 
+Train Negative Acc: 31558/33516 (94.16%) 
+Test Negative Acc:  63298/64119 (98.72%) 
+
+Epoch 003
+Loss: 0.4091 
+Train Acc: 61859/70840 (87.32%) 
+Test Acc:  67552/77924 (86.69%) 
+Train Positive Acc: 28343/37324 (75.94%) 
+Test Positive Acc:  3433/13805 (24.87%) 
+Train Negative Acc: 33516/33516 (100.00%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 004
+Loss: 0.3407 
+Train Acc: 61859/70840 (87.32%) 
+Test Acc:  67552/77924 (86.69%) 
+Train Positive Acc: 28343/37324 (75.94%) 
+Test Positive Acc:  3433/13805 (24.87%) 
+Train Negative Acc: 33516/33516 (100.00%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 005
+Loss: 0.3050 
+Train Acc: 61859/70840 (87.32%) 
+Test Acc:  67552/77924 (86.69%) 
+Train Positive Acc: 28343/37324 (75.94%) 
+Test Positive Acc:  3433/13805 (24.87%) 
+Train Negative Acc: 33516/33516 (100.00%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+"
+sum,psi_10,8,8,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,13805,64119,3(#029.txt),49100,0.6931,18418,0.4935,30682,0.9154,64119,0.8228,0,0.0,64119,1.0,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.7143 / 0.7165 / 0.7083 | accuracy_on_positive=0.7143 / 0.7165 / 0.7083 | accuracy_on_negative=0.7143 / 0.7165 / 0.7083
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.6719 / 0.0 / 1.0000 | accuracy_on_positive=0.6719 / 0.0 / 1.0000 | accuracy_on_negative=0.6719 / 0.0 / 1.0000
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.7921 / 0.0 / 1.0000 | accuracy_on_positive=0.7921 / 0.0 / 1.0000 | accuracy_on_negative=0.7921 / 0.0 / 1.0000
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.8442 / 0.0 / 1.0000 | accuracy_on_positive=0.8442 / 0.0 / 1.0000 | accuracy_on_negative=0.8442 / 0.0 / 1.0000
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8696 / 0.0 / 1.0000 | accuracy_on_positive=0.8696 / 0.0 / 1.0000 | accuracy_on_negative=0.8696 / 0.0 / 1.0000
+",5,"Epoch 001
+Loss: 0.5538 
+Train Acc: 49100/70840 (69.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 18418/37324 (49.35%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 30682/33516 (91.54%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 002
+Loss: 0.5330 
+Train Acc: 49100/70840 (69.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 18418/37324 (49.35%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 30682/33516 (91.54%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 003
+Loss: 0.5287 
+Train Acc: 49100/70840 (69.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 18418/37324 (49.35%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 30682/33516 (91.54%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 004
+Loss: 0.5270 
+Train Acc: 49100/70840 (69.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 18418/37324 (49.35%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 30682/33516 (91.54%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 005
+Loss: 0.5260 
+Train Acc: 49100/70840 (69.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 18418/37324 (49.35%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 30682/33516 (91.54%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+"
+mean,psi_10,8,8,"[7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084, 7084]",77924,13805,64119,3(#030.txt),43677,0.6166,11325,0.3034,32352,0.9653,63749,0.8181,183,0.0133,63566,0.9914,"  [  0-  4] root neighbors | graphs=35420 | accuracy=0.5659 / 0.4235 / 0.9425 | accuracy_on_positive=0.5659 / 0.4235 / 0.9425 | accuracy_on_negative=0.5659 / 0.4235 / 0.9425
+  [  5-  9] root neighbors | graphs=35420 | accuracy=0.6673 / 0.0378 / 0.9746 | accuracy_on_positive=0.6673 / 0.0378 / 0.9746 | accuracy_on_negative=0.6673 / 0.0378 / 0.9746
+  [ 10- 14] root neighbors | graphs=35420 | accuracy=0.7866 / 0.0148 / 0.9892 | accuracy_on_positive=0.7866 / 0.0148 / 0.9892 | accuracy_on_negative=0.7866 / 0.0148 / 0.9892
+  [ 15- 19] root neighbors | graphs=35420 | accuracy=0.8402 / 0.0118 / 0.9930 | accuracy_on_positive=0.8402 / 0.0118 / 0.9930 | accuracy_on_negative=0.8402 / 0.0118 / 0.9930
+  [ 20- 24] root neighbors | graphs=7084 | accuracy=0.8650 / 0.0097 / 0.9933 | accuracy_on_positive=0.8650 / 0.0097 / 0.9933 | accuracy_on_negative=0.8650 / 0.0097 / 0.9933
+",5,"Epoch 001
+Loss: 0.6380 
+Train Acc: 40600/70840 (57.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 7084/37324 (18.98%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 33516/33516 (100.00%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 002
+Loss: 0.6215 
+Train Acc: 40600/70840 (57.31%) 
+Test Acc:  64119/77924 (82.28%) 
+Train Positive Acc: 7084/37324 (18.98%) 
+Test Positive Acc:  0/13805 (0.00%) 
+Train Negative Acc: 33516/33516 (100.00%) 
+Test Negative Acc:  64119/64119 (100.00%) 
+
+Epoch 003
+Loss: 0.6155 
+Train Acc: 41439/70840 (58.50%) 
+Test Acc:  64115/77924 (82.28%) 
+Train Positive Acc: 7931/37324 (21.25%) 
+Test Positive Acc:  31/13805 (0.22%) 
+Train Negative Acc: 33508/33516 (99.98%) 
+Test Negative Acc:  64084/64119 (99.95%) 
+
+Epoch 004
+Loss: 0.6119 
+Train Acc: 41440/70840 (58.50%) 
+Test Acc:  63847/77924 (81.93%) 
+Train Positive Acc: 8781/37324 (23.53%) 
+Test Positive Acc:  80/13805 (0.58%) 
+Train Negative Acc: 32659/33516 (97.44%) 
+Test Negative Acc:  63767/64119 (99.45%) 
+
+Epoch 005
+Loss: 0.6072 
+Train Acc: 43677/70840 (61.66%) 
+Test Acc:  63749/77924 (81.81%) 
+Train Positive Acc: 11325/37324 (30.34%) 
+Test Positive Acc:  183/13805 (1.33%) 
+Train Negative Acc: 32352/33516 (96.53%) 
+Test Negative Acc:  63566/64119 (99.14%) 
+
+"
