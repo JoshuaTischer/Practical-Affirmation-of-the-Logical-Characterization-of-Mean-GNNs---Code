@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Generate complete-bipartite neighborhood graphs for GNN testing.
 
-Each graph is a complete bipartite graph K_{k,k}: two layers of k nodes each,
-with every node in one layer connected to every node in the other layer (edges
-in both directions). Every node therefore has exactly k neighbors and none are
-leaves -- unlike the earlier star-tree design, every node here plays the same
-role a "root" used to play. Every node carries 2 binary features (4
-possibilities: no feature, feature 1, feature 2, both).
+Each graph starts with complete bipartite candidates K_{k,k}: two layers of k
+nodes each, with every node in one layer connected to every node in the other
+layer (edges in both directions). `EDGE_PROBABILITY` independently retains
+each directed candidate edge, defaulting to 1.0 so every node has exactly k
+neighbors and none are leaves. Unlike the earlier star-tree design, every node
+here plays the same role a "root" used to play. Every node carries 2 binary
+features (4 possibilities: no feature, feature 1, feature 2, both).
 
 For a given layer size k, every unordered assignment of feature-types across
 the k nodes of one layer is enumerated exactly once (order among the k nodes
@@ -34,6 +35,7 @@ from math import comb
 MAX_NEIGHBORS = 20
 FEATURE_TYPES = [(0, 0), (1, 0), (0, 1), (1, 1)]  # none, feat1, feat2, both
 RANDOM_SEED = 42
+EDGE_PROBABILITY = 0.8
 
 _max_configs = comb(MAX_NEIGHBORS + 3, 3)  # 1771 configurations for k=20
 TARGET_COUNT = -(-_max_configs // 2)  # ceil(1771 / 2) = 886
@@ -72,7 +74,7 @@ def pair_configs(configs, rng):
     return pairs
 
 
-def render_file(k, pairs):
+def render_file(k, pairs, rng, edge_probability):
     lines = [
         "import torch",
         "from torch_geometric.data import Data",
@@ -91,10 +93,13 @@ def render_file(k, pairs):
         x = [list(f) for f in left_feats] + [list(f) for f in right_feats]
         left_idx = list(range(k))
         right_idx = list(range(k, 2 * k))
-        # complete bipartite, both directions: every node aggregates over the opposite layer
-        sources = [l for l in left_idx for _ in right_idx] + [r for r in right_idx for _ in left_idx]
-        targets = [r for _ in left_idx for r in right_idx] + [l for _ in right_idx for l in left_idx]
-        lines.append(f"# complete bipartite {k}x{k}: {2 * k} node(s), {len(sources)} edge(s)")
+        # Complete bipartite candidates in both directions; each directed edge is retained independently.
+        candidate_edges = [(l, r) for l in left_idx for r in right_idx]
+        candidate_edges += [(r, l) for r in right_idx for l in left_idx]
+        edges = [edge for edge in candidate_edges if rng.random() < edge_probability]
+        sources = [source for source, _ in edges]
+        targets = [target for _, target in edges]
+        lines.append(f"# bipartite {k}x{k}: {2 * k} node(s), {len(sources)} edge(s)")
         lines.append(f"g{i} = _make(")
         lines.append(f"    edge_index=[{sources}, {targets}],")
         lines.append(f"    x={x},")
@@ -141,12 +146,15 @@ def render_zero_file():
 
 
 def main():
+    if not 0.0 <= EDGE_PROBABILITY <= 1.0:
+        raise ValueError("EDGE_PROBABILITY must be between 0.0 and 1.0")
     os.makedirs(OUT_DIR, exist_ok=True)
     init_path = os.path.join(OUT_DIR, "__init__.py")
     if not os.path.exists(init_path):
         open(init_path, "w").close()
 
     rng = random.Random(RANDOM_SEED)
+    print(f"Edge probability: {EDGE_PROBABILITY}")
     for k in range(MAX_NEIGHBORS + 1):
         if k == 0:
             content = render_zero_file()
@@ -155,7 +163,7 @@ def main():
             configs = layer_configs(k)
             assert len(configs) == comb(k + 3, 3)
             pairs = pair_configs(configs, rng)
-            content = render_file(k, pairs)
+            content = render_file(k, pairs, rng, EDGE_PROBABILITY)
             num_unique = len(pairs)
         out_path = os.path.join(OUT_DIR, f"nb_k{k:02d}.py")
         with open(out_path, "w") as f:

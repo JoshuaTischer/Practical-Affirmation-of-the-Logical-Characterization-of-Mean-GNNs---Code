@@ -9,13 +9,13 @@ def _make(edge_index, x):
     )
 
 
-# complete bipartite 1x1: 2 node(s), 2 edge(s)
+# bipartite 1x1: 2 node(s), 2 edge(s)
 g0 = _make(
     edge_index=[[0, 1], [1, 0]],
     x=[[1, 0], [0, 1]],
 )
 
-# complete bipartite 1x1: 2 node(s), 2 edge(s)
+# bipartite 1x1: 2 node(s), 2 edge(s)
 g1 = _make(
     edge_index=[[0, 1], [1, 0]],
     x=[[0, 0], [1, 1]],

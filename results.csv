@@ -3270,3 +3270,675 @@ Train Negative Acc: 2951/2951 (100.00%)
 Test Negative Acc:  7364/7364 (100.00%) 
 
 "
+max,psi_7,2,2,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,3839,5476,3,5630,0.6177,816,0.2022,4814,0.9476,6015,0.6457,843,0.2196,5172,0.9445,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.7336 / 0.5486 / 0.8960
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.5862 / 0.0574 / 0.9524
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.5509 / 0.0266 / 0.9754
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.5494 / 0.0095 / 1.0000
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.7342 / 0.5452 / 0.8997
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.5921 / 0.0658 / 0.9405
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.6302 / 0.0347 / 0.9664
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.5909 / 0.0360 / 0.9948
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.4132 
+Train Acc: 5619/9115 (61.65%) 
+Test Acc:  6000/9315 (64.41%) 
+Train Positive Acc: 1262/4035 (31.28%) 
+Test Positive Acc:  1295/3839 (33.73%) 
+Train Negative Acc: 4357/5080 (85.77%) 
+Test Negative Acc:  4705/5476 (85.92%) 
+
+Epoch 080
+Loss: 0.3908 
+Train Acc: 5630/9115 (61.77%) 
+Test Acc:  6015/9315 (64.57%) 
+Train Positive Acc: 816/4035 (20.22%) 
+Test Positive Acc:  843/3839 (21.96%) 
+Train Negative Acc: 4814/5080 (94.76%) 
+Test Negative Acc:  5172/5476 (94.45%) 
+
+Epoch 120
+Loss: 0.3867 
+Train Acc: 5630/9115 (61.77%) 
+Test Acc:  6015/9315 (64.57%) 
+Train Positive Acc: 816/4035 (20.22%) 
+Test Positive Acc:  843/3839 (21.96%) 
+Train Negative Acc: 4814/5080 (94.76%) 
+Test Negative Acc:  5172/5476 (94.45%) 
+
+Epoch 160
+Loss: 0.3855 
+Train Acc: 5630/9115 (61.77%) 
+Test Acc:  6015/9315 (64.57%) 
+Train Positive Acc: 816/4035 (20.22%) 
+Test Positive Acc:  843/3839 (21.96%) 
+Train Negative Acc: 4814/5080 (94.76%) 
+Test Negative Acc:  5172/5476 (94.45%) 
+
+Epoch 200
+Loss: 0.3850 
+Train Acc: 5630/9115 (61.77%) 
+Test Acc:  6015/9315 (64.57%) 
+Train Positive Acc: 816/4035 (20.22%) 
+Test Positive Acc:  843/3839 (21.96%) 
+Train Negative Acc: 4814/5080 (94.76%) 
+Test Negative Acc:  5172/5476 (94.45%) 
+
+"
+sum,psi_7,2,2,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,3839,5476,3,7873,0.8637,3920,0.9715,3953,0.7781,7911,0.8493,3708,0.9659,4203,0.7675,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.9478 / 0.9288 / 0.9644
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.8739 / 0.9809 / 0.7999
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.8073 / 1.0000 / 0.6513
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.7504 / 1.0000 / 0.5421
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.9493 / 0.9284 / 0.9677
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.8690 / 0.9662 / 0.8047
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.7803 / 0.9989 / 0.6569
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.7288 / 1.0000 / 0.5314
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.1754 
+Train Acc: 7860/9115 (86.23%) 
+Test Acc:  8008/9315 (85.97%) 
+Train Positive Acc: 3874/4035 (96.01%) 
+Test Positive Acc:  3644/3839 (94.92%) 
+Train Negative Acc: 3986/5080 (78.46%) 
+Test Negative Acc:  4364/5476 (79.69%) 
+
+Epoch 080
+Loss: 0.1602 
+Train Acc: 7840/9115 (86.01%) 
+Test Acc:  7948/9315 (85.32%) 
+Train Positive Acc: 3896/4035 (96.56%) 
+Test Positive Acc:  3701/3839 (96.41%) 
+Train Negative Acc: 3944/5080 (77.64%) 
+Test Negative Acc:  4247/5476 (77.56%) 
+
+Epoch 120
+Loss: 0.1558 
+Train Acc: 7852/9115 (86.14%) 
+Test Acc:  7947/9315 (85.31%) 
+Train Positive Acc: 3906/4035 (96.80%) 
+Test Positive Acc:  3701/3839 (96.41%) 
+Train Negative Acc: 3946/5080 (77.68%) 
+Test Negative Acc:  4246/5476 (77.54%) 
+
+Epoch 160
+Loss: 0.1545 
+Train Acc: 7865/9115 (86.29%) 
+Test Acc:  7944/9315 (85.28%) 
+Train Positive Acc: 3925/4035 (97.27%) 
+Test Positive Acc:  3716/3839 (96.80%) 
+Train Negative Acc: 3940/5080 (77.56%) 
+Test Negative Acc:  4228/5476 (77.21%) 
+
+Epoch 200
+Loss: 0.1531 
+Train Acc: 7873/9115 (86.37%) 
+Test Acc:  7911/9315 (84.93%) 
+Train Positive Acc: 3920/4035 (97.15%) 
+Test Positive Acc:  3708/3839 (96.59%) 
+Train Negative Acc: 3953/5080 (77.81%) 
+Test Negative Acc:  4203/5476 (76.75%) 
+
+"
+mean,psi_7,2,2,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,3839,5476,1,8732,0.958,3800,0.9418,4932,0.9709,8977,0.9637,3659,0.9531,5318,0.9711,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.9646 / 0.9962 / 0.9369
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.9601 / 0.9382 / 0.9753
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.9554 / 0.9118 / 0.9908
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.9419 / 0.8743 / 0.9984
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.9637 / 0.9947 / 0.9366
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.9607 / 0.9391 / 0.9750
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.9582 / 0.9090 / 0.9859
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.9803 / 0.9532 / 1.0000
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.2695 
+Train Acc: 6975/9115 (76.52%) 
+Test Acc:  7309/9315 (78.46%) 
+Train Positive Acc: 3235/4035 (80.17%) 
+Test Positive Acc:  3302/3839 (86.01%) 
+Train Negative Acc: 3740/5080 (73.62%) 
+Test Negative Acc:  4007/5476 (73.17%) 
+
+Epoch 080
+Loss: 0.1356 
+Train Acc: 8443/9115 (92.63%) 
+Test Acc:  8666/9315 (93.03%) 
+Train Positive Acc: 3636/4035 (90.11%) 
+Test Positive Acc:  3529/3839 (91.92%) 
+Train Negative Acc: 4807/5080 (94.63%) 
+Test Negative Acc:  5137/5476 (93.81%) 
+
+Epoch 120
+Loss: 0.0976 
+Train Acc: 8650/9115 (94.90%) 
+Test Acc:  8868/9315 (95.20%) 
+Train Positive Acc: 3735/4035 (92.57%) 
+Test Positive Acc:  3599/3839 (93.75%) 
+Train Negative Acc: 4915/5080 (96.75%) 
+Test Negative Acc:  5269/5476 (96.22%) 
+
+Epoch 160
+Loss: 0.0805 
+Train Acc: 8711/9115 (95.57%) 
+Test Acc:  8937/9315 (95.94%) 
+Train Positive Acc: 3787/4035 (93.85%) 
+Test Positive Acc:  3644/3839 (94.92%) 
+Train Negative Acc: 4924/5080 (96.93%) 
+Test Negative Acc:  5293/5476 (96.66%) 
+
+Epoch 200
+Loss: 0.0705 
+Train Acc: 8732/9115 (95.80%) 
+Test Acc:  8977/9315 (96.37%) 
+Train Positive Acc: 3800/4035 (94.18%) 
+Test Positive Acc:  3659/3839 (95.31%) 
+Train Negative Acc: 4932/5080 (97.09%) 
+Test Negative Acc:  5318/5476 (97.11%) 
+
+"
+max,psi_8,4,4,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,4439,4876,3,6934,0.7607,2210,0.5382,4724,0.9431,6925,0.7434,2381,0.5364,4544,0.9319,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.9242 / 0.8577 / 0.9671
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.7172 / 0.4913 / 0.9368
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.6961 / 0.3818 / 0.9466
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.6023 / 0.3287 / 0.8796
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.9205 / 0.8509 / 0.9694
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.7126 / 0.5157 / 0.9214
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.6611 / 0.3770 / 0.8964
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.5826 / 0.3325 / 0.9327
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.2710 
+Train Acc: 6685/9115 (73.34%) 
+Test Acc:  6846/9315 (73.49%) 
+Train Positive Acc: 2060/4106 (50.17%) 
+Test Positive Acc:  2350/4439 (52.94%) 
+Train Negative Acc: 4625/5009 (92.33%) 
+Test Negative Acc:  4496/4876 (92.21%) 
+
+Epoch 080
+Loss: 0.2111 
+Train Acc: 6928/9115 (76.01%) 
+Test Acc:  6941/9315 (74.51%) 
+Train Positive Acc: 2346/4106 (57.14%) 
+Test Positive Acc:  2458/4439 (55.37%) 
+Train Negative Acc: 4582/5009 (91.48%) 
+Test Negative Acc:  4483/4876 (91.94%) 
+
+Epoch 120
+Loss: 0.1968 
+Train Acc: 6848/9115 (75.13%) 
+Test Acc:  6864/9315 (73.69%) 
+Train Positive Acc: 2043/4106 (49.76%) 
+Test Positive Acc:  2163/4439 (48.73%) 
+Train Negative Acc: 4805/5009 (95.93%) 
+Test Negative Acc:  4701/4876 (96.41%) 
+
+Epoch 160
+Loss: 0.1861 
+Train Acc: 6860/9115 (75.26%) 
+Test Acc:  6855/9315 (73.59%) 
+Train Positive Acc: 2078/4106 (50.61%) 
+Test Positive Acc:  2229/4439 (50.21%) 
+Train Negative Acc: 4782/5009 (95.47%) 
+Test Negative Acc:  4626/4876 (94.87%) 
+
+Epoch 200
+Loss: 0.1806 
+Train Acc: 6934/9115 (76.07%) 
+Test Acc:  6925/9315 (74.34%) 
+Train Positive Acc: 2210/4106 (53.82%) 
+Test Positive Acc:  2381/4439 (53.64%) 
+Train Negative Acc: 4724/5009 (94.31%) 
+Test Negative Acc:  4544/4876 (93.19%) 
+
+"
+sum,psi_8,4,4,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,4439,4876,3,5668,0.6218,2168,0.528,3500,0.6987,5707,0.6127,2297,0.5175,3410,0.6993,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.7733 / 0.9708 / 0.6461
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.5559 / 0.6871 / 0.4284
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.5823 / 0.1397 / 0.9352
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.4957 / 0.0120 / 0.9860
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.7768 / 0.9659 / 0.6437
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.5797 / 0.7343 / 0.4159
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.5575 / 0.1320 / 0.9099
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.4311 / 0.0377 / 0.9818
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.4014 
+Train Acc: 5536/9115 (60.74%) 
+Test Acc:  5401/9315 (57.98%) 
+Train Positive Acc: 1882/4106 (45.84%) 
+Test Positive Acc:  1893/4439 (42.64%) 
+Train Negative Acc: 3654/5009 (72.95%) 
+Test Negative Acc:  3508/4876 (71.94%) 
+
+Epoch 080
+Loss: 0.3061 
+Train Acc: 5688/9115 (62.40%) 
+Test Acc:  5611/9315 (60.24%) 
+Train Positive Acc: 1089/4106 (26.52%) 
+Test Positive Acc:  1133/4439 (25.52%) 
+Train Negative Acc: 4599/5009 (91.81%) 
+Test Negative Acc:  4478/4876 (91.84%) 
+
+Epoch 120
+Loss: 0.2863 
+Train Acc: 5807/9115 (63.71%) 
+Test Acc:  5832/9315 (62.61%) 
+Train Positive Acc: 1745/4106 (42.50%) 
+Test Positive Acc:  1886/4439 (42.49%) 
+Train Negative Acc: 4062/5009 (81.09%) 
+Test Negative Acc:  3946/4876 (80.93%) 
+
+Epoch 160
+Loss: 0.2738 
+Train Acc: 5542/9115 (60.80%) 
+Test Acc:  5922/9315 (63.57%) 
+Train Positive Acc: 4046/4106 (98.54%) 
+Test Positive Acc:  4379/4439 (98.65%) 
+Train Negative Acc: 1496/5009 (29.87%) 
+Test Negative Acc:  1543/4876 (31.64%) 
+
+Epoch 200
+Loss: 0.3285 
+Train Acc: 5668/9115 (62.18%) 
+Test Acc:  5707/9315 (61.27%) 
+Train Positive Acc: 2168/4106 (52.80%) 
+Test Positive Acc:  2297/4439 (51.75%) 
+Train Negative Acc: 3500/5009 (69.87%) 
+Test Negative Acc:  3410/4876 (69.93%) 
+
+"
+mean,psi_8,4,4,"[443, 221, 110, 73, 55, 44, 36, 31, 27, 24, 22, 20, 18, 17, 15, 14, 13, 13, 12, 11, 11]","[443, 222, 111, 74, 55, 44, 37, 32, 28, 25, 22, 20, 18, 17, 16, 15, 14, 13, 12, 12, 11]",9315,4439,4876,1,8913,0.9778,3989,0.9715,4924,0.983,9134,0.9806,4341,0.9779,4793,0.983,"  [  0-  4] root neighbors | nodes=2797 | accuracy=0.9743 / 0.9735 / 0.9747
+  [  5-  9] root neighbors | nodes=2808 | accuracy=0.9679 / 0.9574 / 0.9782
+  [ 10- 14] root neighbors | nodes=2356 | accuracy=0.9894 / 0.9818 / 0.9954
+  [ 15- 19] root neighbors | nodes=1154 | accuracy=0.9870 / 0.9828 / 0.9913
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=2841 | accuracy=0.9747 / 0.9753 / 0.9742
+  [  5-  9] root neighbors | nodes=2596 | accuracy=0.9811 / 0.9820 / 0.9802
+  [ 10- 14] root neighbors | nodes=2558 | accuracy=0.9781 / 0.9612 / 0.9921
+  [ 15- 19] root neighbors | nodes=1320 | accuracy=0.9970 / 1.0000 / 0.9927
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.1254 
+Train Acc: 8563/9115 (93.94%) 
+Test Acc:  8765/9315 (94.10%) 
+Train Positive Acc: 3679/4106 (89.60%) 
+Test Positive Acc:  4026/4439 (90.70%) 
+Train Negative Acc: 4884/5009 (97.50%) 
+Test Negative Acc:  4739/4876 (97.19%) 
+
+Epoch 080
+Loss: 0.0707 
+Train Acc: 8789/9115 (96.42%) 
+Test Acc:  9016/9315 (96.79%) 
+Train Positive Acc: 3913/4106 (95.30%) 
+Test Positive Acc:  4272/4439 (96.24%) 
+Train Negative Acc: 4876/5009 (97.34%) 
+Test Negative Acc:  4744/4876 (97.29%) 
+
+Epoch 120
+Loss: 0.0520 
+Train Acc: 8847/9115 (97.06%) 
+Test Acc:  9068/9315 (97.35%) 
+Train Positive Acc: 3979/4106 (96.91%) 
+Test Positive Acc:  4333/4439 (97.61%) 
+Train Negative Acc: 4868/5009 (97.19%) 
+Test Negative Acc:  4735/4876 (97.11%) 
+
+Epoch 160
+Loss: 0.0453 
+Train Acc: 8873/9115 (97.35%) 
+Test Acc:  9094/9315 (97.63%) 
+Train Positive Acc: 3986/4106 (97.08%) 
+Test Positive Acc:  4340/4439 (97.77%) 
+Train Negative Acc: 4887/5009 (97.56%) 
+Test Negative Acc:  4754/4876 (97.50%) 
+
+Epoch 200
+Loss: 0.0404 
+Train Acc: 8913/9115 (97.78%) 
+Test Acc:  9134/9315 (98.06%) 
+Train Positive Acc: 3989/4106 (97.15%) 
+Test Positive Acc:  4341/4439 (97.79%) 
+Train Negative Acc: 4924/5009 (98.30%) 
+Test Negative Acc:  4793/4876 (98.30%) 
+
+"
+max,psi_7,2,2,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,5116,8896,3,3756,0.8502,1894,0.8543,1862,0.846,8895,0.6348,402,0.0786,8493,0.9547,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.8502 / 0.8543 / 0.8460
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.7038 / 0.2320 / 0.9178
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.6210 / 0.1079 / 0.9347
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.6320 / 0.0351 / 0.9685
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.6360 / 0.0421 / 0.9863
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.2402 
+Train Acc: 3668/4418 (83.02%) 
+Test Acc:  8590/14012 (61.30%) 
+Train Positive Acc: 1816/2217 (81.91%) 
+Test Positive Acc:  251/5116 (4.91%) 
+Train Negative Acc: 1852/2201 (84.14%) 
+Test Negative Acc:  8339/8896 (93.74%) 
+
+Epoch 080
+Loss: 0.1951 
+Train Acc: 3734/4418 (84.52%) 
+Test Acc:  8825/14012 (62.98%) 
+Train Positive Acc: 1795/2217 (80.97%) 
+Test Positive Acc:  207/5116 (4.05%) 
+Train Negative Acc: 1939/2201 (88.10%) 
+Test Negative Acc:  8618/8896 (96.88%) 
+
+Epoch 120
+Loss: 0.1854 
+Train Acc: 3734/4418 (84.52%) 
+Test Acc:  8825/14012 (62.98%) 
+Train Positive Acc: 1795/2217 (80.97%) 
+Test Positive Acc:  207/5116 (4.05%) 
+Train Negative Acc: 1939/2201 (88.10%) 
+Test Negative Acc:  8618/8896 (96.88%) 
+
+Epoch 160
+Loss: 0.1774 
+Train Acc: 3734/4418 (84.52%) 
+Test Acc:  8825/14012 (62.98%) 
+Train Positive Acc: 1795/2217 (80.97%) 
+Test Positive Acc:  207/5116 (4.05%) 
+Train Negative Acc: 1939/2201 (88.10%) 
+Test Negative Acc:  8618/8896 (96.88%) 
+
+Epoch 200
+Loss: 0.1683 
+Train Acc: 3756/4418 (85.02%) 
+Test Acc:  8895/14012 (63.48%) 
+Train Positive Acc: 1894/2217 (85.43%) 
+Test Positive Acc:  402/5116 (7.86%) 
+Train Negative Acc: 1862/2201 (84.60%) 
+Test Negative Acc:  8493/8896 (95.47%) 
+
+"
+sum,psi_7,2,2,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,5116,8896,1,4195,0.9495,2128,0.9599,2067,0.9391,10116,0.722,5087,0.9943,5029,0.5653,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.9495 / 0.9599 / 0.9391
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.8511 / 0.9680 / 0.7981
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.7676 / 0.9913 / 0.6309
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.6904 / 1.0000 / 0.5159
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.6290 / 1.0000 / 0.4102
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.0908 
+Train Acc: 4116/4418 (93.16%) 
+Test Acc:  10558/14012 (75.35%) 
+Train Positive Acc: 2122/2217 (95.71%) 
+Test Positive Acc:  5048/5116 (98.67%) 
+Train Negative Acc: 1994/2201 (90.60%) 
+Test Negative Acc:  5510/8896 (61.94%) 
+
+Epoch 080
+Loss: 0.0685 
+Train Acc: 4183/4418 (94.68%) 
+Test Acc:  10355/14012 (73.90%) 
+Train Positive Acc: 2137/2217 (96.39%) 
+Test Positive Acc:  5089/5116 (99.47%) 
+Train Negative Acc: 2046/2201 (92.96%) 
+Test Negative Acc:  5266/8896 (59.20%) 
+
+Epoch 120
+Loss: 0.0606 
+Train Acc: 4175/4418 (94.50%) 
+Test Acc:  10257/14012 (73.20%) 
+Train Positive Acc: 2122/2217 (95.71%) 
+Test Positive Acc:  5086/5116 (99.41%) 
+Train Negative Acc: 2053/2201 (93.28%) 
+Test Negative Acc:  5171/8896 (58.13%) 
+
+Epoch 160
+Loss: 0.0562 
+Train Acc: 4195/4418 (94.95%) 
+Test Acc:  10186/14012 (72.69%) 
+Train Positive Acc: 2128/2217 (95.99%) 
+Test Positive Acc:  5087/5116 (99.43%) 
+Train Negative Acc: 2067/2201 (93.91%) 
+Test Negative Acc:  5099/8896 (57.32%) 
+
+Epoch 200
+Loss: 0.0534 
+Train Acc: 4195/4418 (94.95%) 
+Test Acc:  10116/14012 (72.20%) 
+Train Positive Acc: 2128/2217 (95.99%) 
+Test Positive Acc:  5087/5116 (99.43%) 
+Train Negative Acc: 2067/2201 (93.91%) 
+Test Negative Acc:  5029/8896 (56.53%) 
+
+"
+mean,psi_7,2,2,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,5116,8896,2,4299,0.9731,2181,0.9838,2118,0.9623,12780,0.9121,3946,0.7713,8834,0.993,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.9731 / 0.9838 / 0.9623
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.9484 / 0.8800 / 0.9794
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.9156 / 0.7996 / 0.9866
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.9063 / 0.7412 / 0.9994
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.8989 / 0.7276 / 1.0000
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.1018 
+Train Acc: 3990/4418 (90.31%) 
+Test Acc:  12090/14012 (86.28%) 
+Train Positive Acc: 2127/2217 (95.94%) 
+Test Positive Acc:  4000/5116 (78.19%) 
+Train Negative Acc: 1863/2201 (84.64%) 
+Test Negative Acc:  8090/8896 (90.94%) 
+
+Epoch 080
+Loss: 0.0603 
+Train Acc: 4288/4418 (97.06%) 
+Test Acc:  12687/14012 (90.54%) 
+Train Positive Acc: 2175/2217 (98.11%) 
+Test Positive Acc:  3971/5116 (77.62%) 
+Train Negative Acc: 2113/2201 (96.00%) 
+Test Negative Acc:  8716/8896 (97.98%) 
+
+Epoch 120
+Loss: 0.0468 
+Train Acc: 4291/4418 (97.13%) 
+Test Acc:  12782/14012 (91.22%) 
+Train Positive Acc: 2172/2217 (97.97%) 
+Test Positive Acc:  3994/5116 (78.07%) 
+Train Negative Acc: 2119/2201 (96.27%) 
+Test Negative Acc:  8788/8896 (98.79%) 
+
+Epoch 160
+Loss: 0.0401 
+Train Acc: 4291/4418 (97.13%) 
+Test Acc:  12760/14012 (91.06%) 
+Train Positive Acc: 2187/2217 (98.65%) 
+Test Positive Acc:  3934/5116 (76.90%) 
+Train Negative Acc: 2104/2201 (95.59%) 
+Test Negative Acc:  8826/8896 (99.21%) 
+
+Epoch 200
+Loss: 0.0357 
+Train Acc: 4299/4418 (97.31%) 
+Test Acc:  12780/14012 (91.21%) 
+Train Positive Acc: 2181/2217 (98.38%) 
+Test Positive Acc:  3946/5116 (77.13%) 
+Train Negative Acc: 2118/2201 (96.23%) 
+Test Negative Acc:  8834/8896 (99.30%) 
+
+"
+max,psi_8,4,4,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,6995,7017,1,4127,0.9341,1493,0.9032,2634,0.9526,7829,0.5587,4066,0.5813,3763,0.5363,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.9341 / 0.9032 / 0.9526
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.5458 / 0.6078 / 0.4814
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.5976 / 0.6031 / 0.5919
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.5351 / 0.5511 / 0.5212
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.5337 / 0.5811 / 0.4752
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.0905 
+Train Acc: 4093/4418 (92.64%) 
+Test Acc:  8043/14012 (57.40%) 
+Train Positive Acc: 1473/1653 (89.11%) 
+Test Positive Acc:  4045/6995 (57.83%) 
+Train Negative Acc: 2620/2765 (94.76%) 
+Test Negative Acc:  3998/7017 (56.98%) 
+
+Epoch 080
+Loss: 0.0745 
+Train Acc: 4119/4418 (93.23%) 
+Test Acc:  7983/14012 (56.97%) 
+Train Positive Acc: 1505/1653 (91.05%) 
+Test Positive Acc:  4132/6995 (59.07%) 
+Train Negative Acc: 2614/2765 (94.54%) 
+Test Negative Acc:  3851/7017 (54.88%) 
+
+Epoch 120
+Loss: 0.0682 
+Train Acc: 4131/4418 (93.50%) 
+Test Acc:  7838/14012 (55.94%) 
+Train Positive Acc: 1517/1653 (91.77%) 
+Test Positive Acc:  3998/6995 (57.16%) 
+Train Negative Acc: 2614/2765 (94.54%) 
+Test Negative Acc:  3840/7017 (54.72%) 
+
+Epoch 160
+Loss: 0.0630 
+Train Acc: 4107/4418 (92.96%) 
+Test Acc:  7798/14012 (55.65%) 
+Train Positive Acc: 1493/1653 (90.32%) 
+Test Positive Acc:  4048/6995 (57.87%) 
+Train Negative Acc: 2614/2765 (94.54%) 
+Test Negative Acc:  3750/7017 (53.44%) 
+
+Epoch 200
+Loss: 0.0607 
+Train Acc: 4127/4418 (93.41%) 
+Test Acc:  7829/14012 (55.87%) 
+Train Positive Acc: 1493/1653 (90.32%) 
+Test Positive Acc:  4066/6995 (58.13%) 
+Train Negative Acc: 2634/2765 (95.26%) 
+Test Negative Acc:  3763/7017 (53.63%) 
+
+"
+sum,psi_8,4,4,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,6995,7017,1,4403,0.9966,1638,0.9909,2765,1.0,11793,0.8416,6746,0.9644,5047,0.7193,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.9966 / 0.9909 / 1.0000
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.9609 / 0.9232 / 1.0000
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.9133 / 0.9405 / 0.8853
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.7812 / 0.9810 / 0.6087
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.7605 / 1.0000 / 0.4651
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.1389 
+Train Acc: 4282/4418 (96.92%) 
+Test Acc:  9781/14012 (69.80%) 
+Train Positive Acc: 1529/1653 (92.50%) 
+Test Positive Acc:  3147/6995 (44.99%) 
+Train Negative Acc: 2753/2765 (99.57%) 
+Test Negative Acc:  6634/7017 (94.54%) 
+
+Epoch 080
+Loss: 0.0432 
+Train Acc: 4313/4418 (97.62%) 
+Test Acc:  11872/14012 (84.73%) 
+Train Positive Acc: 1548/1653 (93.65%) 
+Test Positive Acc:  4972/6995 (71.08%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  6900/7017 (98.33%) 
+
+Epoch 120
+Loss: 0.0267 
+Train Acc: 4340/4418 (98.23%) 
+Test Acc:  13109/14012 (93.56%) 
+Train Positive Acc: 1575/1653 (95.28%) 
+Test Positive Acc:  6269/6995 (89.62%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  6840/7017 (97.48%) 
+
+Epoch 160
+Loss: 0.0158 
+Train Acc: 4358/4418 (98.64%) 
+Test Acc:  12285/14012 (87.67%) 
+Train Positive Acc: 1593/1653 (96.37%) 
+Test Positive Acc:  6639/6995 (94.91%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  5646/7017 (80.46%) 
+
+Epoch 200
+Loss: 0.0128 
+Train Acc: 4403/4418 (99.66%) 
+Test Acc:  11793/14012 (84.16%) 
+Train Positive Acc: 1638/1653 (99.09%) 
+Test Positive Acc:  6746/6995 (96.44%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  5047/7017 (71.93%) 
+
+"
+mean,psi_8,4,4,"[886, 443, 221, 147, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]","[0, 0, 0, 0, 0, 88, 73, 63, 55, 49, 44, 40, 36, 34, 31, 29, 27, 26, 24, 23, 22]",14012,6995,7017,2,4406,0.9973,1641,0.9927,2765,1.0,12788,0.9126,5790,0.8277,6998,0.9973,"  [  0-  4] root neighbors | nodes=4418 | accuracy=0.9973 / 0.9927 / 1.0000
+  [  5-  9] root neighbors | nodes=   0 | accuracy=n/a
+  [ 10- 14] root neighbors | nodes=   0 | accuracy=n/a
+  [ 15- 19] root neighbors | nodes=   0 | accuracy=n/a
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+","  [  0-  4] root neighbors | nodes=1202 | accuracy=0.9326 / 0.8987 / 0.9678
+  [  5-  9] root neighbors | nodes=5156 | accuracy=0.9158 / 0.8344 / 1.0000
+  [ 10- 14] root neighbors | nodes=5220 | accuracy=0.9155 / 0.8177 / 1.0000
+  [ 15- 19] root neighbors | nodes=2434 | accuracy=0.8899 / 0.8006 / 1.0000
+  [ 20- 24] root neighbors | nodes=   0 | accuracy=n/a
+",200,"Epoch 040
+Loss: 0.1514 
+Train Acc: 3613/4418 (81.78%) 
+Test Acc:  9402/14012 (67.10%) 
+Train Positive Acc: 1037/1653 (62.73%) 
+Test Positive Acc:  2743/6995 (39.21%) 
+Train Negative Acc: 2576/2765 (93.16%) 
+Test Negative Acc:  6659/7017 (94.90%) 
+
+Epoch 080
+Loss: 0.0750 
+Train Acc: 4271/4418 (96.67%) 
+Test Acc:  12757/14012 (91.04%) 
+Train Positive Acc: 1569/1653 (94.92%) 
+Test Positive Acc:  5773/6995 (82.53%) 
+Train Negative Acc: 2702/2765 (97.72%) 
+Test Negative Acc:  6984/7017 (99.53%) 
+
+Epoch 120
+Loss: 0.0279 
+Train Acc: 4406/4418 (99.73%) 
+Test Acc:  12768/14012 (91.12%) 
+Train Positive Acc: 1641/1653 (99.27%) 
+Test Positive Acc:  5770/6995 (82.49%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  6998/7017 (99.73%) 
+
+Epoch 160
+Loss: 0.0166 
+Train Acc: 4406/4418 (99.73%) 
+Test Acc:  12791/14012 (91.29%) 
+Train Positive Acc: 1641/1653 (99.27%) 
+Test Positive Acc:  5793/6995 (82.82%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  6998/7017 (99.73%) 
+
+Epoch 200
+Loss: 0.0115 
+Train Acc: 4406/4418 (99.73%) 
+Test Acc:  12788/14012 (91.26%) 
+Train Positive Acc: 1641/1653 (99.27%) 
+Test Positive Acc:  5790/6995 (82.77%) 
+Train Negative Acc: 2765/2765 (100.00%) 
+Test Negative Acc:  6998/7017 (99.73%) 
+
+"
