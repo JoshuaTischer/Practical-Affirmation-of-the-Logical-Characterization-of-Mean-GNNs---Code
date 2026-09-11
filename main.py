@@ -340,9 +340,9 @@ def main():
     training_mask_non_uniform = [g // 2 for g in graphs_per_degree]
     testing_mask_non_uniform = [g - g // 2 for g in graphs_per_degree]
 
-    # uniform: degrees 0-4 go entirely to train, degrees 5-20 entirely to test
-    training_mask_uniform = [graphs_per_degree[k] if k < 5 else 0 for k in range(len(GRAPH_FILES))]
-    testing_mask_uniform = [graphs_per_degree[k] if k >= 5 else 0 for k in range(len(GRAPH_FILES))]
+    # uniform: degrees 0-9 go entirely to train, degrees 10-20 entirely to test
+    training_mask_uniform = [graphs_per_degree[k] if k < 10 else 0 for k in range(len(GRAPH_FILES))]
+    testing_mask_uniform = [graphs_per_degree[k] if k >= 10 else 0 for k in range(len(GRAPH_FILES))]
 
     training_mask = training_mask_uniform if SETTING == "uniform" else training_mask_non_uniform
     testing_mask = testing_mask_uniform if SETTING == "uniform" else testing_mask_non_uniform
@@ -414,9 +414,9 @@ def main():
 
     current_formula_indexes = [8]
 
-    one_cycle(training_mask=training_mask, testing_mask=testing_mask, aggregation="mean", dimension=formula_depths[current_formula_indexes[0]], layers=formula_depths[current_formula_indexes[0]], formula=fomulas[current_formula_indexes[0]], formula_name=formula_names[current_formula_indexes[0]])
+    #one_cycle(training_mask=training_mask, testing_mask=testing_mask, aggregation="mean", dimension=formula_depths[current_formula_indexes[0]], layers=formula_depths[current_formula_indexes[0]], formula=fomulas[current_formula_indexes[0]], formula_name=formula_names[current_formula_indexes[0]])
 
-    """ for current_formula_index in current_formula_indexes:
+    for current_formula_index in current_formula_indexes:
         print(f"Formula: {formula_names[current_formula_index]} | Depth: {formula_depths[current_formula_index]}")
         training_graphs = apply_labels(load_training_graphs(training_mask), fomulas[current_formula_index])
         test_graphs = apply_labels(load_test_graphs(testing_mask), fomulas[current_formula_index])
@@ -467,7 +467,7 @@ def main():
 
         print("\nLaTeX table row (Formula columns):")
         print(f"\\makecell{{{pos_cell}}} & % Pos. \\%")
- """
+
 
 if __name__ == "__main__":
     main()
