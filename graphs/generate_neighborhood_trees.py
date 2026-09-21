@@ -5,9 +5,7 @@ Each graph starts with complete bipartite candidates K_{k,k}: two layers of k
 nodes each, with every node in one layer connected to every node in the other
 layer (edges in both directions). `EDGE_PROBABILITY` independently retains
 each directed candidate edge, defaulting to 1.0 so every node has exactly k
-neighbors and none are leaves. Unlike the earlier star-tree design, every node
-here plays the same role a "root" used to play. Every node carries 2 binary
-features (4 possibilities: no feature, feature 1, feature 2, both).
+neighbors and none are leaves. 
 
 For a given layer size k, every unordered assignment of feature-types across
 the k nodes of one layer is enumerated exactly once (order among the k nodes
