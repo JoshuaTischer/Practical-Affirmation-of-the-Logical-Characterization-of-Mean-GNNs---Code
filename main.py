@@ -414,9 +414,9 @@ def main():
 
     current_formula_indexes = [8]
 
-    #one_cycle(training_mask=training_mask, testing_mask=testing_mask, aggregation="mean", dimension=formula_depths[current_formula_indexes[0]], layers=formula_depths[current_formula_indexes[0]], formula=fomulas[current_formula_indexes[0]], formula_name=formula_names[current_formula_indexes[0]])
+    one_cycle(training_mask=training_mask, testing_mask=testing_mask, aggregation="mean", dimension=formula_depths[current_formula_indexes[0]], layers=formula_depths[current_formula_indexes[0]], formula=fomulas[current_formula_indexes[0]], formula_name=formula_names[current_formula_indexes[0]])
 
-    for current_formula_index in current_formula_indexes:
+    """ for current_formula_index in current_formula_indexes:
         print(f"Formula: {formula_names[current_formula_index]} | Depth: {formula_depths[current_formula_index]}")
         training_graphs = apply_labels(load_training_graphs(training_mask), fomulas[current_formula_index])
         test_graphs = apply_labels(load_test_graphs(testing_mask), fomulas[current_formula_index])
@@ -467,7 +467,7 @@ def main():
 
         print("\nLaTeX table row (Formula columns):")
         print(f"\\makecell{{{pos_cell}}} & % Pos. \\%")
-
+ """
 
 if __name__ == "__main__":
     main()
